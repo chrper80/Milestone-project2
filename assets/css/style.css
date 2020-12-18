@@ -4,6 +4,98 @@
     border: 0;
 }
 
+html{
+    height: 100%;
+}
+
 body{
     font-family: 'Gill Sans', sans-serif;
+    height: 100%;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: gray;
+    font-size: 2.5rem;
+}
+
+.hamburgerIcon{
+    float: right;
+    background-color: rgb(175, 175, 175);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: rgb(204, 204, 204);
+    z-index: 1;
+}
+
+nav ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 25px;
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.addBackgroundColorOnClick{
+    background-color: rgba(139, 149, 238, 0.5);
+}
+
+.homePageHeadingAndImage{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    text-align: center;
+    margin-top: -150px;
+    margin-bottom: 70px;
+}
+
+.homePageHeadingAndImage h1{
+    margin-bottom: 10px;
+}
+
+.homePageHeadingAndImage p{
+    margin-bottom: 20px;
+}
+
+.neemaImage{
+    width: 80%;
+}
+
+footer{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    background-color: gray;
+    font-size: 2rem;
+}
+
+#toTopButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
