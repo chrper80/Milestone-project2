@@ -282,7 +282,42 @@ footer{
 .containerContact{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto 1fr auto;
 }
+
+form{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    margin-top: -150px;
+}
+
+.form-input{
+    height: 30px;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.textarea{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.checkbox{
+    margin-bottom: 15px;
+}
+
+.form-button{
+    padding: 10px;
+    display: block;
+    margin-bottom: 30px;
+}
+
+
+
+
 
 
