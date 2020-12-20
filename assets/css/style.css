@@ -316,6 +316,35 @@ form{
     margin-bottom: 30px;
 }
 
+/*Testimonials*/
+
+#testimonials{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    margin-top: -155px;
+    margin-bottom: 50px;
+}
+
+#testimonials p{
+    margin: 7px 0 7px 0;
+}
+
+#testimonials h4{
+    color:rgb(70, 70, 70);
+    margin-bottom: 5px;
+}
+
+#testimonial-1-keep-reading{
+    color: blue;
+}
+
+.testimonial-1-hide{
+    display: none;
+}
+
+
+
 
 
 
