@@ -10,23 +10,35 @@
 <body class="container">
     
         <header id="header">
-        <i class="fas fa-bars hamburgerIcon"></i>
+        <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
-    <nav class="hide">
+    <nav class="hide" id="mobile-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Item 2</a></li>
-                <li><a href="#">Item 3</a></li>
-                <li><a href="#">Item 4</a></li>
+                <li><a href="experience.html">Workplaces</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="downloads.html">Download CV</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+
+        <header id="header-large-screens">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Workplaces</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="downloads.html">Download CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <section class="cards">
-            <div class="card">
+            <div class="card card-1">
                 <h2>Axel Arigato</h2>
                 <p class="year">Oct 2020-Currently</p>
                 <p class="role">Customer Service Manager</p>
-                <div class="read-more1">Read More</div>
+                <div class="read-more1 on-hover">Read More</div>
                 <article class="card-article1">
                     <ul class="card-article-ul">
                         <li>Integrated data analysis and performance trend reports to develop sales strategies that led to exceeding sales targets by 37%.</li>
@@ -36,11 +48,11 @@
                     </ul>
                 </article>
             </div>
-            <div class="card">
+            <div class="card card-2">
                 <h2>Tijarat AB</h2>
                 <p class="year">June 2018-Feb 2019</p>
                 <p class="role">Project Lead/Business Developement Intern</p>
-                <div class="read-more2">Read More</div>
+                <div class="read-more2 on-hover">Read More</div>
                 <article class="card-article2">
                     <ul class="card-article-ul">
                         <li>Conducted market analysis, developed business plans used to forecast potential risks and implement projects.</li>
@@ -50,11 +62,11 @@
                     </ul>
                 </article>
             </div>
-            <div class="card">
+            <div class="card card-3">
                 <h2>Vodacom Tanzania</h2>
                 <p class="year">Nov 2015-Oct 2017</p>
                 <p class="role">Retail Support Manager</p>
-                <div class="read-more3">Read More</div>
+                <div class="read-more3 on-hover">Read More</div>
                 <article class="card-article3">
                     <ul class="card-article-ul">
                         <li>Integrated data analysis and performance trend reports to develop sales strategies that led to exceeding sales targets by 37%.</li>
@@ -64,11 +76,11 @@
                     </ul>
                 </article>
             </div>
-            <div class="card">
+            <div class="card card-4">
                 <h2>Vodacom Tanzania</h2>
                 <p class="year">May 2012-Oct 2015</p>
                 <p class="role">Audit and Compliance Manager</p>
-                <div class="read-more4">Read More</div>
+                <div class="read-more4 on-hover">Read More</div>
                 <article class="card-article4">
                     <ul class="card-article-ul">
                         <li>Led a team of 18 people that looked after service quality for Call Center and Retail stores.</li>
@@ -79,11 +91,11 @@
                     </ul>
                 </article>
             </div>
-            <div class="card">
+            <div class="card card-5">
                 <h2>Vodacom Tanzania</h2>
                 <p class="year">April 2008-April 2012</p>
                 <p class="role">Quality Assessor</p>
-                <div class="read-more5">Read More</div>
+                <div class="read-more5 on-hover">Read More</div>
                 <article class="card-article5">
                     <ul class="card-article-ul">
                         <li>Reviewed and edited more than 1,000 seasonal promotion communications to customers where the promo exceeded revenue expectations by 36%.</li>
@@ -93,11 +105,11 @@
                     </ul>
                 </article>
             </div>
-            <div class="card">
+            <div class="card card-6">
                 <h2>Erolink Limited</h2>
                 <p class="year">Oct 2007-Mars 2008</p>
                 <p class="role">Call Center Agent</p>
-                <div class="read-more6">Read More</div>
+                <div class="read-more6 on-hover">Read More</div>
                 <article class="card-article6">
                     <ul class="card-article-ul">
                         <li>Listened, analyzed and resolved customers problems over the phone.</li>
@@ -109,11 +121,11 @@
             
         </section>
 
-   <footer id="toTopButton">
-        <i class="fas fa-arrow-circle-up"></i>
+   <footer id="footer">
+        <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
     
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </html>

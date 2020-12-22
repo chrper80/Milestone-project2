@@ -9,29 +9,42 @@
 </head>
 <body class="container">
     <header id="header">
-        <i class="fas fa-bars hamburgerIcon"></i>
+        <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
-        <nav class="hide">
+        <nav class="hide" id="mobile-menu">
             <ul>
-                <li><a href="#">Item 1</a></li>
-                <li><a href="#">Item 2</a></li>
-                <li><a href="#">Item 3</a></li>
-                <li><a href="#">Item 4</a></li>
-                <li><a href="#">Item 5</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="experience.html">Workplaces</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="downloads.html">Download CV</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <!--Header for screens from 768px-->
+        <header id="header-large-screens">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Workplaces</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="downloads.html">Download CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
     
-        <section class="homePageHeadingAndImage">
-        <h1 class="frontPageHeading">I'm Neema</h1>
+        <section class="homepage-heading-and-image">
+        <h1>I'm Neema</h1>
         <p>I'll make your customers smile!</p>
-        <img class="neemaImage" src="assets/images/neema-winter.jpg" alt="Image of a woman named Neema">
+        <img class="neema-image" src="assets/images/neema-winter.jpg" alt="Image of a woman named Neema">
     </section>
-    <footer id="toTopButton">
-        <i class="fas fa-arrow-circle-up"></i>
+    <footer id="footer">
+        <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

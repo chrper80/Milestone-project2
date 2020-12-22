@@ -10,17 +10,29 @@
 
     <body class="container">
 <header id="header">
-        <i class="fas fa-bars hamburgerIcon"></i>
+        <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
-    <nav class="hide">
+    <nav class="hide" id="mobile-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">workplaces</a></li>
-                <li><a href="testimonials.html">Item 3</a></li>
-                <li><a href="#">Item 4</a></li>
+                <li><a href="experience.html">Workplaces</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="downloads.html">Download CV</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
     </nav>
+
+    <header id="header-large-screens">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="experience.html">Workplaces</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="downloads.html">Download CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
     <article id="testimonials">
         <h2>Servias Mazhetese</h2>
         <h4>ICT professional</h4>
@@ -49,12 +61,12 @@
     
     
 
-    <footer id="toTopButton">
-        <i class="fas fa-arrow-circle-up"></i>
+    <footer id="footer">
+        <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/script.js"></script>    
+<script type="text/javascript" src="assets/js/main.js"></script>    
 </body>
 
 </html>
