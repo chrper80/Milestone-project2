@@ -198,7 +198,7 @@ nav a:active{
 }
 
 .neema-image{
-    width: 30%;
+    width: 45%;
 }
 
 footer{
@@ -336,9 +336,7 @@ footer{
     box-shadow: 2px 2px 2px gray;
 }
 
-.background-readmore{
-    background-color: red;
-}
+
 
 .card-article1{
     grid-row-start: 7;
@@ -422,6 +420,10 @@ footer{
     grid-row-gap: 30px;
     grid-column-gap: 30px;
     
+}
+
+.background-readmore{
+    background-color: red;
 }
 
 .card{
@@ -627,6 +629,35 @@ form{
     font-size: 1.2rem;
 } 
 }
+
+/*Downloads*/
+
+#downloads{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-rows: 50px 30px auto;
+    margin-top: -150px;
+}
+
+#downloads h1{
+    text-align: center;
+}
+
+#downloads a{
+    text-align: center;
+}
+
+@media(min-width: 768px){
+    #downloads{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    display: grid;
+    grid-template-rows: 50px 30px auto;
+    margin-top: 40px;
+}
+}
+
 
 
 
