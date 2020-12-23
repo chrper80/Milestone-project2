@@ -627,7 +627,11 @@ form{
     display: block;
     margin-bottom: 30px;
     font-size: 1.2rem;
-} 
+}
+
+.form-button-bg-color{
+    background-color: red;
+}
 }
 
 /*Downloads*/

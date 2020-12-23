@@ -142,6 +142,14 @@ function initMap() {
   });
 }
 
+/*contact*/
+
+/*Change color on hover over button*/
+
+$(".form-button").hover(function(){
+    $(this).toggleClass("form-button-bg-color");
+});
+
 
 
 
