@@ -150,6 +150,90 @@ $(".form-button").hover(function(){
     $(this).toggleClass("form-button-bg-color");
 });
 
+/*testimonial test*/
+
+$(".right-arrow").click(function(){
+    let current = $(".active");
+    let next = current.next();
+
+    if(next.length){
+    current.removeClass("active");
+        next.addClass("active");
+    }
+});
+
+$(".left-arrow").click(function(){
+    let current = $(".active");
+    let prev = current.prev();
+
+    if(prev.length){
+    current.removeClass("active");
+        prev.addClass("active");
+    }
+});
+
+$("#read-full-testimonial").click(function(){
+    $(".testimonial-text").toggle("fast");
+});
+
+$("#read-full-testimonial2").click(function(){
+    $(".testimonial-text").toggle("fast");
+});
+
+$("#read-full-testimonial3").click(function(){
+    $(".testimonial-text").toggle("fast");
+});
+
+$("#read-full-testimonial4").click(function(){
+    $(".testimonial-text").toggle("fast");
+});
+
+$("#read-full-testimonial").click(function(){
+    $("#read-full-testimonial").nextAll("p").toggle("fast");
+    let toggleText = document.getElementById("read-full-testimonial");
+    if(toggleText.innerHTML == "Read"){
+        toggleText.innerHTML = "Show less";
+    }
+    else{
+        toggleText.innerHTML = "Read";
+    }
+});
+
+$("#read-full-testimonial2").click(function(){
+    $("#read-full-testimonial2").nextAll("p").toggle("fast");
+    let toggleText = document.getElementById("read-full-testimonial2");
+    if(toggleText.innerHTML == "Read"){
+        toggleText.innerHTML = "Show less";
+    }
+    else{
+        toggleText.innerHTML = "Read";
+    }
+});
+
+$("#read-full-testimonial3").click(function(){
+    $("#read-full-testimonial3").nextAll("p").toggle("fast");
+    let toggleText = document.getElementById("read-full-testimonial3");
+    if(toggleText.innerHTML == "Read"){
+        toggleText.innerHTML = "Show less";
+    }
+    else{
+        toggleText.innerHTML = "Read";
+    }
+});
+
+$("#read-full-testimonial4").click(function(){
+    $("#read-full-testimonial4").nextAll("p").toggle("fast");
+    let toggleText = document.getElementById("read-full-testimonial4");
+    if(toggleText.innerHTML == "Read"){
+        toggleText.innerHTML = "Show less";
+    }
+    else{
+        toggleText.innerHTML = "Read";
+    }
+});
+
+
+
 
 
 
