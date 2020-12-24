@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-    <body class="container">
-<header id="header">
+<body class="container-testimonials">
+    <header id="header">
         <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
     <nav class="hide" id="mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="experience.html">Workplaces</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="downloads.html">Download CV</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="header-large-screens">
+        <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="experience.html">Workplaces</a></li>
@@ -20,53 +34,112 @@
                 <li><a href="downloads.html">Download CV</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-    </nav>
+        </nav>
+    </header>
+    <section class="carousel-container">
 
-    <header id="header-large-screens">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="experience.html">Workplaces</a></li>
-                    <li><a href="testimonials.html">Testimonials</a></li>
-                    <li><a href="downloads.html">Download CV</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    <article id="testimonials">
-        <h2>Servias Mazhetese</h2>
-        <h4>ICT professional</h4>
-        <p>
-            I worked with Neema when I was managing a Contact Centre Solution Project as a service provider for Vodacom Tanzania. She was Manager: Audit & Compliance (Service Quality) and I was the Project Manager for the solution we were deploying.
-        </p>
-        <p id="testimonial-1-keep-reading">Continue reading</p>
-        <p class="testimonial-1-hide">
-            Neema is meticulous in her approach to quality in whatever she does. On the aforementioned project, she was consistently working towards improving quality at all levels in here department. Neema went about her job without any complaints and helped structure reports that were in line with the overall company and departmental objectives.
-        </p>
-        <p class="testimonial-1-hide">
-            Her expertise lies in successfully managing teams, processes, and strategic programs to drive continuous quality improvement efforts through audits and special projects. Through my experience working with Neema, I gained wealth of knowledge in data analysis and orchestrating project implementations, as well as ensuring compliance on regulatory and company policies.
-        </p>
-        <p class="testimonial-1-hide">
-            Neema is a reserved person but thorough in whatever she does. I would recommend her for any Quality Assurance Position in any sector.
-        </p>
+        <div class="active">
+
+            <h4>Servias Mazhetese</h4>
+            <h5>ICT professional</h5>
+            <p class="quote">"Neema went about her job without any complaints"</p>
+            <div id="read-full-testimonial">Read</div>
+            <article class="testimonial-text">
+                <p>
+                    I worked with Neema when I was managing a Contact Centre Solution Project as a service provider for
+                    Vodacom Tanzania. She was Manager: Audit & Compliance (Service Quality) and I was the Project
+                    Manager for the solution we were deploying.
+                </p>
+                <p>
+                    Neema is meticulous in her approach to quality in whatever she does. On the aforementioned project,
+                    she was consistently working towards improving quality at all levels in here department. Neema went
+                    about her job without any complaints and helped structure reports that were in line with the overall
+                    company and departmental objectives.
+                </p>
+                <p>
+                    Her expertise lies in successfully managing teams, processes, and strategic programs to drive
+                    continuous quality improvement efforts through audits and special projects. Through my experience
+                    working with Neema, I gained wealth of knowledge in data analysis and orchestrating project
+                    implementations, as well as ensuring compliance on regulatory and company policies.
+                </p>
+
+                <p>
+                    Neema is a reserved person but thorough in whatever she does. I would recommend her for any Quality
+                    Assurance Position in any sector.
+                </p>
+
+            </article>
+            <div id="navigation">
+                <p class="left-arrow">Prev</p>
+                <p class="right-arrow">Next</p>
+            </div>
+        </div>
+        <div class="testimonial2">
+            <h4>James Pilli</h4>
+            <h5>Chief Structural Engineer</h5>
+            <p class="quote">"Neema is confident in her undertakings"</p>
+            <div id="read-full-testimonial2">Read</div>
+            <article class="testimonial-text">
+                <p>
+                    Neema is confident in her undertakings, independent when it has to be and a friendly team worker a
+                    quality necessary in order to be successful. bravo keep it up.
+                </p>
+            </article>
+             <div id="navigation2">
+        <p class="left-arrow">Prev</p>
+        <p class="right-arrow">Next</p>
+        </div>
+        </div>
+        <div class="testimonial3">
+            <h4>Brigita Stephen</h4>
+            <h5>Head of department </h5>
+            <p class="quote">"Neema has outstanding organizational skills"</p>
+            <div id="read-full-testimonial3">Read</div>
+            <article class="testimonial-text">
+                <p>
+                    Besides being a joy to work with, Neema is a take charge person who is able to present creative
+                    ideas and communicate the benefits. Neema has outstanding organizational skills. She is able to
+                    successfully complete multiple tasks with favorable results despite deadline pressure. She ensures
+                    all assignments given to her are timely completed and successful by demonstrating leadership
+                    abilities that her direct reports both admires and respects.
+                </p>
+            </article>
+             <div id="navigation3">
+        <p class="left-arrow">Prev</p>
+        <p class="right-arrow">Next</p>
+        </div>
+        </div>
+        <div class="testimonial4">
+            <h4>Jamiri M Garimo</h4>
+            <h5>Academic Head</h5>
+            <p class="quote">"She impressed me well with her academic abilities"</p>
+            <div id="read-full-testimonial4">Read</div>
+            <article class="testimonial-text">
+                <p>
+                    Besides being a joy to work with, Neema is a take charge person who is able to present creative
+                    ideas and communicate the benefits. Neema has outstanding organizational skills. She is able to
+                    successfully complete multiple tasks with favorable results despite deadline pressure. She ensures
+                    all assignments given to her are timely completed and successful by demonstrating leadership
+                    abilities that her direct reports both admires and respects.
+                </p>
+            </article>
+             <div id="navigation4">
+        <p class="left-arrow">Prev</p>
+        <p class="right-arrow">Next</p>
+        </div>
+        </div>
+
         
-        <br>
-       
-        <h2>James Pilli</h2>
-        <h4>Chief Structural Engineer</h4>
-        <p>
-            Neema is confident in her undertakings, independent when it has to be and a friendly team worker a quality necessary in order to be successful. bravo keep it up.
-        </p>
-        </article>
-    
-    
+    </section>
+
 
     <footer id="footer">
         <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
 
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="assets/js/main.js"></script>    
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 
 </html>
