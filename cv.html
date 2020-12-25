@@ -4,16 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neema Kisanga CV website</title>
+    <title>CV</title>
+    
     <!--Font awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <!--Link to my css file-->
+    
+    <!--My css file-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<!--Grid-container-->
+<!--Grid container-->
 <body class="container">
+    
     <!--Header-->
     <header id="header">
         <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
@@ -27,6 +30,7 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    
     <!--Header for screens from 768px-->
     <header id="header-large-screens">
         <nav>
@@ -39,28 +43,31 @@
             </ul>
         </nav>
     </header>
-
-    <!--Mid section-->
-    <section class="homepage-heading-and-image">
-        <h1>I'm Neema</h1>
-        <p>I'll make your customers smile!</p>
-        <img class="neema-image" src="assets/images/neema-winter.jpg" alt="Image of a woman named Neema">
+    
+    <!--Iframe with CV as PDF in it-->
+    <section class="pdf-container">
+        <iframe class="iframe" src="assets/documents/cv-neema.pdf" width="100%" height="400px"></iframe>
     </section>
-    <!--footer-->
+    
+    <!--Footer-->
     <footer id="footer">
         <ul>
-            <li><a target="blank" href="https://www.linkedin.com/in/neemakisanga/"><i class="fab fa-linkedin"></i></a>
+            <li><a target="blank" href="https://www.linkedin.com/in/neemakisanga/"><i
+                        class="fab fa-linkedin social"></i></a></li>
+            <li><a target="blank" href="tel:+46702405083"><i class="fas fa-phone-square phone"></i></a></li>
+            <li><a target="blank" href="mailto:chrpe30@outlook.com"><i class="fas fa-envelope-square email"></i></a>
             </li>
-            <li><a target="blank" href="tel:+46702405083"><i class="fas fa-phone-square"></i></a></li>
-            <li><a target="blank" href="mailto:chrpe30@outlook.com"><i class="fas fa-envelope-square"></i></a></li>
         </ul>
         <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
-    <!--jquery library-->
-    <script src="https://code.jquery.com/jquery-3.5.1.js"
-        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <!--Link to my js file-->
-    <script src="assets/js/main.js"></script>
+
 </body>
+
+<!--Jquery library-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+
+<!--My main.js file-->
+<script type="text/javascript" src="assets/js/main.js"></script>
 
 </html>
