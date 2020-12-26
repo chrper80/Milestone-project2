@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    
+
     <!--Font awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    
+
     <!--My css file-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <!--Grid container-->
-<body class="container">
-    
+<body class="container-cv">
+
     <!--Header-->
     <header id="header">
         <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
@@ -24,18 +24,20 @@
     <nav class="hide" id="mobile-menu">
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="experience.html">Workplaces</a></li>
             <li><a href="testimonials.html">Testimonials</a></li>
             <li><a href="cv.html">CV</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    
+
     <!--Header for screens from 768px-->
     <header id="header-large-screens">
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="experience.html">Workplaces</a></li>
                 <li><a href="testimonials.html">Testimonials</a></li>
                 <li><a href="cv.html">CV</a></li>
@@ -43,12 +45,12 @@
             </ul>
         </nav>
     </header>
-    
-    <!--Iframe with CV as PDF in it-->
+
+    <!--Imbedded PDF using POWR-->
     <section class="pdf-container">
-        <iframe class="iframe" src="assets/documents/cv-neema.pdf" width="100%" height="400px"></iframe>
+        <div class="powr-pdf-embed" id="6ab94d27_1608986592"></div>
     </section>
-    
+
     <!--Footer-->
     <footer id="footer">
         <ul>
@@ -66,6 +68,9 @@
 <!--Jquery library-->
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
     crossorigin="anonymous"></script>
+
+<!--POWR-->
+<script src="https://www.powr.io/powr.js?platform=html"></script>
 
 <!--My main.js file-->
 <script type="text/javascript" src="assets/js/main.js"></script>
