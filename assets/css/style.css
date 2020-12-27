@@ -244,7 +244,7 @@ footer{
 
 @media(min-width: 1440px){
     body{
-        max-width: 60%;
+        max-width: 1024px;
         margin: auto;
     }
     
@@ -458,11 +458,6 @@ footer{
     
 }
 
-/*Used for hover effect on button*/
-.background-readmore{
-    background-color: red;
-}
-
 .card{
     background-color: rgb(230, 230, 230);
     margin-bottom: 0;
@@ -512,195 +507,6 @@ footer{
     grid-column-end: 13;
     grid-row-start: 2;
     align-self: start;
-}
-
-}
-
-/*Testimonials*/
-.container-testimonials{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto auto 1fr auto;
-}
-
-.carousel-container{
-    grid-column-start: 2;
-    grid-column-end: 12;
-    margin-top: -190px;
-    font-size: 1.3rem;
-}
-
-.carousel-container div{
-    display: none;
-    overflow: hidden;
-    background-color: rgb(232, 232, 232);
-    text-align: center;
-}
-
-.carousel-container div.active{
-    display: block;
-}
-
-.quote{
-    font-style: italic;
-}
-
-#read-full-testimonial{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 120px;
-    background-color: rgb(2, 46, 0);
-    color: rgb(232, 232, 232);
-    margin: 0 auto 20px auto;
-}
-
-#read-full-testimonial2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 120px;
-    background-color: rgb(2, 46, 0);
-    color: rgb(232, 232, 232);
-    margin: 0 auto 20px auto;
-}
-
-#read-full-testimonial3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 120px;
-    background-color: rgb(2, 46, 0);
-    color: rgb(232, 232, 232);
-    margin: 0 auto 20px auto;
-}
-
-#read-full-testimonial4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
-    width: 120px;
-    background-color: rgb(2, 46, 0);
-    color: rgb(232, 232, 232);
-    margin: 0 auto 20px auto;
-}
-
-#navigation{
-    display: block;
-    background-color: white;
-    border: 0;
-    word-spacing: 10px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#navigation2{
-    display: block;
-    background-color: white;
-    border: 0;
-    word-spacing: 10px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#navigation3{
-    display: block;
-    background-color: white;
-    border: 0;
-    word-spacing: 10px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#navigation4{
-    display: block;
-    background-color: white;
-    border: 0;
-    word-spacing: 10px;
-    text-align: center;
-    padding-top: 20px;
-}
-
-#navigation p{
-    display: inline-block;
-}
-
-#navigation2 p{
-    display: inline-block;
-}
-
-#navigation3 p{
-    display: inline-block;
-}
-
-#navigation4 p{
-    display: inline-block;
-}
-
-.carousel-container h4{
-    margin-top: 10px;
-}
-
-.carousel-container h5{
-    margin-bottom: 10px;
-}
-
-.carousel-container p{
-    margin-bottom: 20px;
-}
-
-.testimonial-text{
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 5px;
-    margin-top: 20px;
-    display: none;
-}
-
-@media(min-width: 768px){
-.container-testimonials{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: auto 1fr auto;
-}
-
-.carousel-container{
-    grid-column-start: 4;
-    grid-column-end: 10;
-    margin-top: 60px;
-    margin-bottom: 0;
-    font-size: 1.4rem;
-}
-}
-
-@media(min-width: 1024px){
-
-.carousel-container{
-    grid-column-start: 4;
-    grid-column-end: 10;
-    margin-top: 60px;
-    margin-bottom: 30px;
-    font-size: 1.4rem;
-}
-
-#read-full-testimonial:hover{
-    background-color: red;
-}
-
-#read-full-testimonial2:hover{
-    background-color: red;
-}
-
-#read-full-testimonial3:hover{
-    background-color: red;
-}
-
-#read-full-testimonial4:hover{
-    background-color: red;
 }
 }
 
@@ -818,15 +624,9 @@ form{
     font-size: 1.2rem;
 }
 
-/*Adding hover effect on submit button*/
-.form-button-bg-color{
-    background-color: red;
-}
 }
 
 /*CV*/
-/*Container for the PDF*/
-
 .container-cv{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -841,7 +641,6 @@ form{
     margin-top: -230px;
     margin-bottom: 30px;
 }
-
 
 @media(min-width: 768px){
 .container-cv{
@@ -944,10 +743,8 @@ form{
 }
 
 .about-neema-text-container p{
-
     color: rgb(27, 27, 27);
 }
-
 }
 
 @media(min-width: 1024px){
@@ -955,6 +752,141 @@ form{
     width: 20%;
 }
 }
+
+/*Testimonials*/
+
+.test-container{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 3;
+    text-align: center;
+    margin-top: -210px;
+    margin-bottom: 30px;
+}
+
+.test-card{
+    width: 100%;
+    background-color: rgb(233, 233, 233);
+    box-shadow: 4px 4px 4px rgb(110, 110, 110);
+}
+
+.test-card h2{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.test-card h4{
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    color: rgb(49, 49, 49)
+}
+
+.test-card p{
+    padding-bottom: 17px;
+    box-sizing: border-box;
+}
+
+.read-testimonial-button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(2, 46, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 233, 233);
+    margin-bottom: 0;
+}
+
+.testimonial-card-text{
+    width: 100%;
+    display: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.testimonial-card-text p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media(min-width: 768px){
+.test-container{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+}
+
+@media(min-width: 1024px){
+.test-container{
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: auto 220px 220px 220px 220px auto;
+    grid-template-rows: auto 1fr auto;
+    grid-column-gap: 10px;
+}
+
+.test-card{
+    background-color: rgb(233, 233, 233);
+}
+
+.test-card1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    align-self: flex-start;
+}
+
+.test-card2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    align-self: flex-start;
+}
+
+.test-card3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    align-self: flex-start;
+}
+
+.test-card4{
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    align-self: flex-start;
+}
+
+.read-testimonial-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(2, 46, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(233, 233, 233);
+}
+
+}
+
+/*Used for hover effect on buttons*/
+@media(min-width: 1024px){
+.background-readmore{
+    background-color: red;
+}
+
+}
+
 
 
 
