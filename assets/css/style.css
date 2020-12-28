@@ -14,7 +14,6 @@ body{
     height: 100%;
 }
 
-/*Home*/
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -75,7 +74,7 @@ nav a:active{
     visibility: hidden;
 }
 
-/*Mid section*/
+/*Home*/
 .homepage-heading-and-image{
     grid-column-start: 1;
     grid-column-end: 13;
@@ -138,7 +137,6 @@ footer{
     grid-row-start: 1;
 }
 
-/*Media query for min width 768px*/
 @media(min-width: 768px){
 .container{
     display: grid;
@@ -212,7 +210,6 @@ nav a:active{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 70px;
-
 }
 
 .homepage-heading-and-image h1{
@@ -233,21 +230,6 @@ footer{
     font-size:1.7rem;
     height: 120px;
 }
-}
-
-/*Media query for min-width 1024*/
-@media(min-width: 1024px){
-    .change-color-on-hover{
-        color: red;
-    }
-}
-
-@media(min-width: 1440px){
-    body{
-        max-width: 1024px;
-        margin: auto;
-    }
-    
 }
 
 /*Workplaces*/
@@ -371,8 +353,6 @@ footer{
     box-shadow: 2px 2px 2px gray;
 }
 
-
-/*The info being revealed when pressing the button on the card*/
 .card-article1{
     grid-row-start: 7;
     grid-row-end: 8;
@@ -661,7 +641,6 @@ form{
 }
 
 /*About*/
-
 .about-neema-container{
     grid-column-start: 2;
     grid-column-end: 12;
@@ -754,137 +733,145 @@ form{
 }
 
 /*Testimonials*/
-
-.test-container{
+.testimonials-container{
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 3;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: -210px;
     margin-bottom: 30px;
 }
 
-.test-card{
-    width: 100%;
+.testimonials-card{
+    flex: 200px;
+    margin: 10px 0px 10px 0px;
+}
+.testimonials-inner-card{
+    height: 200px;
     background-color: rgb(233, 233, 233);
-    box-shadow: 4px 4px 4px rgb(110, 110, 110);
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
-.test-card h2{
-    padding-top: 15px;
-    padding-bottom: 5px;
-    box-sizing: border-box;
+.testimonials-inner-card h1{
+    padding-top: 20px;
 }
 
-.test-card h4{
-    padding-bottom: 15px;
-    box-sizing: border-box;
-    color: rgb(49, 49, 49)
+.testimonials-inner-card h3{
+    padding-top: 5px;
 }
 
-.test-card p{
-    padding-bottom: 17px;
-    box-sizing: border-box;
+.testimonials-inner-card p{
+    padding-top: 20px;
 }
 
-.read-testimonial-button{
+.testimonial-button{
     width: 100%;
     height: 40px;
+    color: rgb(233, 233, 233);
     background-color: rgb(2, 46, 0);
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: rgb(233, 233, 233);
-    margin-bottom: 0;
+    align-items: center;
 }
 
-.testimonial-card-text{
-    width: 100%;
-    display: none;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.testimonial-card-text p{
+.testimonials-article{
+    padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(233, 233, 233);
+    display: none;
+}
+
+.testimonials-article p{
+    margin: 5px;
 }
 
 @media(min-width: 768px){
-.test-container{
-    grid-column-start: 3;
-    grid-column-end: 11;
-    grid-row-start: 2;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-}
-
-@media(min-width: 1024px){
-.test-container{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    grid-row-start: 2;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    display: grid;
-    grid-template-columns: auto 220px 220px 220px 220px auto;
-    grid-template-rows: auto 1fr auto;
-    grid-column-gap: 10px;
-}
-
-.test-card{
-    background-color: rgb(233, 233, 233);
-}
-
-.test-card1{
+.testimonials-container{
     grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    align-self: flex-start;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-.test-card2{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
-    align-self: flex-start;
+.testimonials-card{
+    flex: 200px;
+    margin: 10px 10px 10px 10px;
+}
+.testimonials-inner-card{
+    height: 200px;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
 }
 
-.test-card3{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    align-self: flex-start;
+.testimonials-inner-card h1{
+    padding-top: 20px;
 }
 
-.test-card4{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    align-self: flex-start;
+.testimonials-inner-card h3{
+    padding-top: 5px;
 }
 
-.read-testimonial-button{
+.testimonials-inner-card p{
+    padding-top: 20px;
+}
+
+.testimonial-button{
     width: 100%;
-    height: 50px;
+    height: 40px;
+    color: rgb(233, 233, 233);
     background-color: rgb(2, 46, 0);
     display: flex;
-    align-items: center;
     justify-content: center;
-    color: rgb(233, 233, 233);
+    align-items: center;
 }
 
+.testimonials-article{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(233, 233, 233);
+    display: none;
 }
 
-/*Used for hover effect on buttons*/
+.testimonials-article p{
+    margin: 5px;
+}
+}
+
+/*Used for hover effect on buttons and menu/footer items*/
 @media(min-width: 1024px){
-.background-readmore{
-    background-color: red;
+    .background-readmore{
+        background-color: rgba(2, 46, 0, 0.9);
+}
 }
 
+@media(min-width: 1024px){
+    .change-color-on-hover{
+        color: red;
+    }
+}
+
+/*Max-width from 1440px*/
+@media(min-width: 1440px){
+    body{
+        max-width: 1024px;
+        margin: auto;
+    }
+    
 }
 
 
