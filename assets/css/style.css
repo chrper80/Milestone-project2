@@ -85,6 +85,7 @@ nav a:active{
 
 .homepage-heading-and-image h1{
     margin-bottom: 10px;
+    text-transform: capitalize;
 }
 
 .homepage-heading-and-image p{
@@ -496,14 +497,15 @@ form{
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 3;
-    margin-top: -200px;
+    margin-top: -220px;
 }
 
 .form-input{
     height: 30px;
     width: 100%;
-    border: 1px solid rgb(2, 46, 0);
+    border: 1px solid rgb(0, 0, 0);
     margin-bottom: 5px;
+    padding-left: 7px;
 }
 
 .textarea{
@@ -511,17 +513,27 @@ form{
     width: 100%;
     border: 1px solid rgb(2, 46, 0);
     margin-bottom: 15px;
+    padding-left: 7px;
+    padding-top: 10px;
 }
 
 .form-button{
     padding: 10px;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     background-color: rgb(2, 46, 0);
     color: rgb(232, 232, 232);
 }
 
 /*Map*/
+#headings-map{
+    grid-column-start: 2;
+    grid-column-end: 12;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(53, 53, 53);
+}
+
 #map{
     height: 200px;
     grid-column-start: 2;
@@ -536,6 +548,14 @@ form{
     grid-column-end: 11;
     grid-row-start: 2;
     margin-top: 30px;
+}
+
+#headings-map{
+    grid-column-start: 3;
+    grid-column-end: 11;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(53, 53, 53);
 }
 
 #map{
@@ -575,11 +595,18 @@ form{
     margin-top: 45px;
 }
 
+#headings-map{
+    grid-column-start: 4;
+    grid-column-end: 10;
+    text-align: left;
+    color: rgb(53, 53, 53);
+}
+
 #map{
     grid-column-start: 4;
     grid-column-end: 10;
     height: 300px;
-    margin-top: 20px;
+    margin-top: -2px;
     margin-bottom: 60px;
 }
   
@@ -865,10 +892,18 @@ form{
     }
 }
 
+@media(min-width: 1024px){
+.change-bg-color-about{
+    background-color: rgba(2, 46, 0, 0.2);
+}
+}
+
+
+
 /*Max-width from 1440px*/
 @media(min-width: 1440px){
     body{
-        max-width: 1024px;
+        max-width: 1440px;
         margin: auto;
     }
     
