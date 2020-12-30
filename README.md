@@ -32,6 +32,22 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ## Wireframes
 
+Here is a link to my wireframes that are made in Adobe XD.
+
+[Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
+
+### Credit
+
+I got the icons from [Font Awsome](https://fontawesome.com/icons?d=gallery).
+
+The font on the mobile header is called Yellowtail and i got it from [Google fonts](https://fonts.google.com/).
+
+For my javascript i rely heavily on [jQuery](https://jquery.com/).
+
+For the popups that comes when succeeding or failing to send a message using the contactform, i use [SweetAlert2](https://sweetalert2.github.io/).
+
+I embedded the cv pdf file using [POWR](https://www.powr.io/).
+
 
 
 
