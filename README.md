@@ -1,5 +1,7 @@
 # CV website for Neema Kisanga
 
+This is a CV website. It is meant to showcase her skills, achievments, experience and who she is as a worker. It contains a home page, about page, former workplaces, testimonials, a page with her CV embedded and available for download and a contact page. It also provides different ways to contact her.
+
 ## UXD
 
 ### Strategy plane
@@ -30,15 +32,22 @@ I wanted to add a clear and easy navigation and i wanted it to be on top. I also
 
 Neema wanted the font Gill Sans because she wanted to give the impression of being professional and friendly. We agreed on using a deep, dark green because it´s very calming. I decided on using red for the hovering effect over the menu items because it gives a good contrast and the colors go well together. It´s also important from a accessibility point of view with high contrast. An example is for people with impaired eyesight. Clear contrast makes it easier for them to read. But also for people with perfect sight, it feels better to read when there is a clear separation between background and foreground.
 
-## Accessibility
+### Accessibility
 
-## Wireframes
-
-Here is a link to my wireframes that are made in Adobe XD.
+### Wireframes
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
 
+## Technologies used
+
+* [HTML](https://www.w3.org/html/)
+  * The structure of the website is created using HTML5.
+
+
+
 ## Credits
+
+### Acknowledgements
 
 I got the icons from [Font Awsome](https://fontawesome.com/icons?d=gallery).
 
@@ -191,6 +200,24 @@ It also gives me that there are 10 unused variables, but that is because i use j
 #### Workplaces
 
 ##### Mobile
+
+* Performance: 92
+* Accessibility: 93
+* Best practices: 100
+* SEO: 91
+
+##### Desktop
+
+* Performance: 99
+* Accessibility: 93
+* Best practices: 100
+* SEO: 89
+
+#### Testimonials
+
+##### Mobile
+
+##### Desktop
 
 
 ### Manual testing
