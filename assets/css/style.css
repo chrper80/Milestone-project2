@@ -1,4 +1,8 @@
 /*Global*/
+
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -31,6 +35,15 @@ header{
     grid-column-end: 13;
     background-color: rgb(2, 46, 0);
     font-size: 2.5rem;
+}
+
+#header p{
+    line-height: 50px;
+    float: left;
+    padding-left: 25px;
+    font-size: 1.3rem;
+    color: rgb(233, 233, 233);
+    font-family: "Yellowtail";
 }
 
 .hamburger-icon{
@@ -234,7 +247,6 @@ footer{
 }
 
 /*Workplaces*/
-/*Cards container*/
 .cards{
     grid-column-start: 2;
     grid-column-end: 12;
@@ -243,7 +255,6 @@ footer{
     margin-bottom: 70px;
 }
 
-/*Card container*/
 .card{
     background-color: rgb(230, 230, 230);
     margin-bottom: 15px;
@@ -253,7 +264,6 @@ footer{
     box-shadow: 2px 2px 2px rgba(121, 121, 121, 0.5);
 }
 
-/*Different info sections on the card*/
 .card h2{
     display: flex;
     align-items: center;
@@ -275,7 +285,6 @@ footer{
     grid-row-start: 4;
 }
 
-/*Card buttons*/
 .read-more1 {
     grid-row-start: 5;
     display: flex;
@@ -413,7 +422,6 @@ footer{
     margin: 5px;
 }
 
-/*Media query for min width 768px*/
 @media(min-width: 768px){
 .cards{
     grid-column-start: 2;
@@ -423,9 +431,9 @@ footer{
     margin-bottom: 70px;
 }
 }
-/*Media query for min width 1024px*/
+
 @media(min-width: 1024px){
-    .cards{
+.cards{
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 2;
@@ -541,9 +549,8 @@ form{
     margin-bottom: 40px;
 }
 
-/*Media query for min width 768px*/
 @media(min-width: 768px){
-    form{
+form{
     grid-column-start: 3;
     grid-column-end: 11;
     grid-row-start: 2;
@@ -586,7 +593,6 @@ form{
 }
 }
 
-/*Media query for min width 1024px*/
 @media(min-width: 1024px){
 form{
     grid-column-start: 4;
@@ -714,7 +720,7 @@ form{
     grid-column-end: 12;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 243, 243);
     text-align: center;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -879,26 +885,28 @@ form{
 }
 }
 
-/*Used for hover effect on buttons and menu/footer items*/
+/*Used for hover effects*/
 @media(min-width: 1024px){
-    .background-readmore{
+.background-readmore{
         background-color: rgba(2, 46, 0, 0.9);
 }
-}
 
-@media(min-width: 1024px){
-    .change-color-on-hover{
+.change-color-on-hover{
         color: red;
-    }
 }
 
-@media(min-width: 1024px){
 .change-bg-color-about{
-    background-color: rgba(2, 46, 0, 0.2);
+    font-size: 1.2rem;
+    width: 250px;
+    text-align: left;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: white;
+}
+.reduce-opacity-about{
+    opacity: 0;
 }
 }
-
-
 
 /*Max-width from 1440px*/
 @media(min-width: 1440px){

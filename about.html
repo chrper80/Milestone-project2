@@ -4,18 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Neema Kisanga CV website</title>
+    <title>About Neema</title>
+
     <!--Font awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
     <!--Link to my css file-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<!--Grid-container-->
 <body class="container">
+
     <!--Header-->
     <header id="header">
+        <p>Neema Kisanga</p>
         <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
     <nav class="hide" id="mobile-menu">
@@ -28,6 +31,7 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
     <!--Header for screens from 768px-->
     <header id="header-large-screens">
         <nav>
@@ -48,27 +52,50 @@
         <img class="about-neema-image" src="assets/images/neema.jpg" alt="Image of a woman named Neema">
         <div class="about-neema-text-container">
             <div>
-                <h3>Top 3 skills <i class="far fa-flag"></i></h3>
-                <p class="about-p1" onmouseover="myFunc('.about-p1')" onmouseout="myFunc('.about-p1')">The first skill is analyzing data. The second skill would be leadership and the third is
-                    communication.</p>
+                <h3 class="heading1">Achievements <i class="far fa-flag"></i></h3>
+                <p id="item1" class="about-p1"
+                    onmouseover="reduceOpacity('#item2', '#item3', '#item4', '.heading2', '.heading3', '.heading4'), highlightAbout('.about-p1')"
+                    onmouseout="resetOpacity('#item2', '#item3', '#item4', '.heading2', '.heading3', '.heading4'), highlightAbout('.about-p1')">
+                    Developing retail support strategies that exceeded some of sales targets by 37% <b>and</b>
+                    streamlining processes that led to a decrease of 41% in process related issues are two of my
+                    achievements. If you want to read more, follow the link below to my LinkedIn profile.</p>
             </div>
             <div>
-                <h3>Interests <i class="fas fa-film"></i></h3>
-                <p>I like to paint, taking photographs, watching movies and i work out.</p>
+                <h3 class="heading2">Skills <i class="fas fa-hammer"></i></h3>
+                <p id="item2" class="about-p2"
+                    onmouseover="reduceOpacity('#item1', '#item3', '#item4', '.heading1', '.heading3', '.heading4'), highlightAbout('.about-p2')"
+                    onmouseout="resetOpacity('#item1', '#item3', '#item4', '.heading1', '.heading3', '.heading4'), highlightAbout('.about-p2')">
+                    Skilled in customer journey mapping, customer experience KPI setting, analysis,
+                    communication, building relationships and leadership.</p>
             </div>
             <div>
-                <h3>Languages <i class="fas fa-globe"></i></h3>
-                <p>Being born in Tanzania, i am fluent in Swahili and Chagga. I am also a fluent English speaker. I am
-                    an intermediate Swedish speaker.</p>
+                <h3 class="heading3">Values <i class="far fa-gem"></i></h3>
+                <p id="item3" class="about-p3"
+                    onmouseover="reduceOpacity('#item1', '#item2', '#item4', '.heading1', '.heading2', '.heading4'), highlightAbout('.about-p3')"
+                    onmouseout="resetOpacity('#item1', '#item2', '#item4', '.heading1', '.heading2', '.heading4'), highlightAbout('.about-p3')">
+                    My passion revolves around creating value for a company that makes a difference for people, and that
+                    fosters innovation and diversity. I dream of making the world a better place by empowering the
+                    society through responsible leadership and sustainable practices, and creating a shared value among
+                    communities.</p>
             </div>
             <div>
-                <h3>Educations <i class="fas fa-user-graduate"></i></h3>
-                <p>MSc in Business Administration - Managing in a Global Context, Jönköping University (June 2019).
-                    BA in Business Studies, University of Greenwich (July 2012).
+                <h3 class="heading4">Type of worker <i class="fas fa-briefcase"></i></h3>
+                <p id="item4" class="about-p4"
+                    onmouseover="reduceOpacity('#item1', '#item2', '#item3', '.heading1', '.heading2', '.heading3'), highlightAbout('.about-p4')"
+                    onmouseout="resetOpacity('#item1', '#item2', '#item3', '.heading1', '.heading2', '.heading3'), highlightAbout('.about-p4')">
+                    I
+                    am experienced in Retail Sales, Customer Experience and Customer Insights within Retail and Call
+                    Center. Working in these areas taught me a great deal of skills that I will bring along to a new
+                    role, including customer support, customer contact, managing and cultivating relationships,
+                    collaboration, project management, communication, motivating others, business reporting, leading and
+                    managing teams, and a work ethic that is grounded on integrity, courage, transparency and achieving
+                    results.
+
                 </p>
             </div>
         </div>
     </section>
+
     <!--footer-->
     <footer id="footer">
         <ul>
@@ -79,9 +106,11 @@
         </ul>
         <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
+
     <!--jquery library-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
     <!--Link to my js file-->
     <script src="assets/js/main.js"></script>
 </body>

@@ -5,18 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    
+
     <!--Font awsome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    
+
     <!--Sweat alert css-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
 
-
     <!--My css file-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
     <!--EmailJS-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -26,11 +25,11 @@
     </script>
 </head>
 
-<!--Grid-container-->
 <body class="container">
-    
+
     <!--header-->
     <header id="header">
+        <p>Neema Kisanga</p>
         <i class="fas fa-bars hamburger-icon" onclick="hamburgerMenu()"></i>
     </header>
     <nav class="hide" id="mobile-menu">
@@ -72,19 +71,20 @@
         <label for="message" id="button-label">Message</label>
         <textarea name="message" id="message" class="textarea"></textarea>
 
-        <input type="submit" value="Get in touch" class="form-button" onmouseover="changeBackgroundColorOfButtons('.form-button')" onmouseout="changeBackgroundColorOfButtons('.form-button')">
-    
+        <input type="submit" value="Get in touch" class="form-button"
+            onmouseover="changeBackgroundColorOfButtons('.form-button')"
+            onmouseout="changeBackgroundColorOfButtons('.form-button')">
+
     </form>
 
     <section id="headings-map">
         <h1>Norra Sjöbogatan 34</h1>
         <p>In case you need to send me some information.</p>
     </section>
-    
-    
+
     <!--Google map-->
     <div id="map"></div>
-    
+
     <!--Footer-->
     <footer id="footer">
         <ul>
@@ -96,20 +96,18 @@
         </ul>
         <i class="fas fa-arrow-circle-up" id="back-to-top" onclick="backToTop()"></i>
     </footer>
-    
+
     <!--Sweet alert-->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
 
-    
+
     <!--Jquery library-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    
-    
-    
+
     <!--My main.js file-->
     <script type="text/javascript" src="assets/js/main.js"></script>
-    
+
     <!--My sendEmail.js file, for the contact form-->
     <script src="assets/js/sendEmail.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
@@ -119,7 +117,7 @@
             emailjs.init('user_25Y8cqq8tqoJwJTHerPh8');
         })();
     </script>
-    
+
     <!--Google Maps-->
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
