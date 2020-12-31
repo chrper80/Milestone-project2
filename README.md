@@ -40,8 +40,29 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ## Technologies used
 
-* [HTML](https://www.w3.org/html/)
+* HTML
   * The structure of the website is created using HTML5.
+* CSS
+ * The styling is added with CSS3.
+* Javascript
+ * Javascript is used to create interactivity on the website.
+*  [JQuery](https://jquery.com/)
+ * Is used to simplify DOM manipulation.
+* [SweetAlert2](https://sweetalert2.github.io/).
+ * For the popups that comes when succeeding or failing to send a message using the contactform.
+* [Font Awsome](https://fontawesome.com/icons?d=gallery)
+ * I got the icons from them.
+* [Google Fonts](https://fonts.google.com/)
+ * The font on the mobile header is called Yellowtail and i got it from Google Fonts.
+* [Google Maps API](https://cloud.google.com/maps-platform/)
+ * I used this Google service for the map on the contact page.
+* [POWR](https://www.powr.io/)
+ * I used there embed PDF app to embed the PDF on the CV page.
+* [EmailJS](https://www.emailjs.com/)
+ * I used there email service for my contact form.
+ 
+
+
 
 
 
@@ -49,21 +70,7 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ### Acknowledgements
 
-I got the icons from [Font Awsome](https://fontawesome.com/icons?d=gallery).
 
-The font on the mobile header is called Yellowtail and i got it from [Google Fonts](https://fonts.google.com/).
-
-To get the map i used the [Google Maps API](https://cloud.google.com/maps-platform/).
-
-For my javascript i rely heavily on [jQuery](https://jquery.com/).
-
-For the popups that comes when succeeding or failing to send a message using the contactform, i use [SweetAlert2](https://sweetalert2.github.io/).
-
-I embedded the cv pdf file using [POWR](https://www.powr.io/).
-
-The mailservice i use is called [EmailJS](https://www.emailjs.com/).
-
-I have also recieved help from my mentor Excellence Ilesanmi and the tutor team.
 
 ## Deployment
 
