@@ -62,11 +62,11 @@ I have also recieved help from my mentor Excellence Ilesanmi and the tutor team.
 
 ## Testing
 
-### CSS validation
+### CSS validation with W3C css validation service
 
-When running the code in the W3C css validation service it gives me no errors but one warning ("Imported style sheets are not checked in direct input and file upload modes"
+No errors but one warning ("Imported style sheets are not checked in direct input and file upload modes").
 
-### HTML validation
+### HTML validation with W3C Logo Markup Validation Service
 
 #### Homepage
 
