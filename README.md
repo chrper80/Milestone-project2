@@ -96,9 +96,9 @@ No error.
 
 ##### Warning
 
-6: "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" .
+6: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
 
-1: "The type attribute is unnecessary for JavaScript resources".
+1: The type attribute is unnecessary for JavaScript resources.
 
 #### Testimonials
 
@@ -108,21 +108,21 @@ No error.
 
 ##### Warning
 
-4: "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles".
+4: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
 
-1: "The type attribute is unnecessary for JavaScript resources".
+1: The type attribute is unnecessary for JavaScript resources.
 
 #### CV
 
 ##### Error 
 
-1 "Stray start tag script". 
+1: Stray start tag script. 
 
 ##### Warning
 
-1: "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"
+1: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
-1: "The type attribute is unnecessary for JavaScript resources".
+1: The type attribute is unnecessary for JavaScript resources.
 
 #### Contacts
 
@@ -132,11 +132,27 @@ No error.
 
 ##### Warning
 
-5: "The type attribute is unnecessary for JavaScript resources".
+5: The type attribute is unnecessary for JavaScript resources.
+
+### Javascript validation with JSHint
+
+#### Error
+
+No error.
+
+#### Warning
+
+3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+1: 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+1: Do not use 'new' for side effects.
+
+It also gives me that there is 10 unused variable, but that is because i use jQuery in the function.
 
 
-
-### Javascript validation
 ### Lighthouse
 ### Manual testing
 
