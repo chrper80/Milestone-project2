@@ -57,7 +57,7 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 * [Google Maps API](https://cloud.google.com/maps-platform/)
   * I used this Google service for the map on the contact page.
 * [POWR](https://www.powr.io/)
-  * I used there embed PDF app to embed the PDF on the CV page.
+  * I used their embed PDF app to embed the PDF on the CV page.
 * [EmailJS](https://www.emailjs.com/)
   * I used there email service for my contact form.
  
