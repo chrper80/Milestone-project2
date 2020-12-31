@@ -70,13 +70,29 @@ When running the code in the W3C css validation service it gives me no errors bu
 
 #### Homepage
 
-No errors or warnings.
+##### Error
+
+No error. 
+
+##### Warning
+
+No warning.
 
 #### About
 
-No errors or warnings.
+##### Error
+
+No error.
+
+##### Warning
+
+No warning.
 
 #### Workplaces
+
+##### Error
+
+No error.
 
 ##### Warning
 
@@ -85,6 +101,10 @@ No errors or warnings.
 1: "The type attribute is unnecessary for JavaScript resources".
 
 #### Testimonials
+
+##### Error
+
+No error.
 
 ##### Warning
 
@@ -103,6 +123,18 @@ No errors or warnings.
 1: "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"
 
 1: "The type attribute is unnecessary for JavaScript resources".
+
+#### Contacts
+
+##### Error
+
+No error.
+
+##### Warning
+
+5: "The type attribute is unnecessary for JavaScript resources".
+
+
 
 ### Javascript validation
 ### Lighthouse
