@@ -41,25 +41,25 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 ## Technologies used
 
 * HTML
-  * The structure of the website is created using HTML5.
+   * The structure of the website is created using HTML5.
 * CSS
- * The styling is added with CSS3.
+  * The styling is added with CSS3.
 * Javascript
- * Javascript is used to create interactivity on the website.
+  * Javascript is used to create interactivity on the website.
 *  [JQuery](https://jquery.com/)
- * Is used to simplify DOM manipulation.
+  * Is used to simplify DOM manipulation.
 * [SweetAlert2](https://sweetalert2.github.io/).
- * For the popups that comes when succeeding or failing to send a message using the contactform.
+  * For the popups that comes when succeeding or failing to send a message using the contactform.
 * [Font Awsome](https://fontawesome.com/icons?d=gallery)
- * I got the icons from them.
+  * I got the icons from them.
 * [Google Fonts](https://fonts.google.com/)
- * The font on the mobile header is called Yellowtail and i got it from Google Fonts.
+  * The font on the mobile header is called Yellowtail and i got it from Google Fonts.
 * [Google Maps API](https://cloud.google.com/maps-platform/)
- * I used this Google service for the map on the contact page.
+  * I used this Google service for the map on the contact page.
 * [POWR](https://www.powr.io/)
- * I used there embed PDF app to embed the PDF on the CV page.
+  * I used there embed PDF app to embed the PDF on the CV page.
 * [EmailJS](https://www.emailjs.com/)
- * I used there email service for my contact form.
+  * I used there email service for my contact form.
  
 
 
