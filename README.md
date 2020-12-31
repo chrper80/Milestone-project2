@@ -30,17 +30,21 @@ I wanted to add a clear and easy navigation and i wanted it to be on top. I also
 
 Neema wanted the font Gill Sans because she wanted to give the impression of being professional and friendly. We agreed on using a deep, dark green because it´s very calming. I decided on using red for the hovering effect over the menu items because it gives a good contrast and the colors go well together. It´s also important from a accessibility point of view with high contrast. An example is for people with impaired eyesight. Clear contrast makes it easier for them to read. But also for people with perfect sight, it feels better to read when there is a clear separation between background and foreground.
 
+## Accessibility
+
 ## Wireframes
 
 Here is a link to my wireframes that are made in Adobe XD.
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
 
-### Credits
+## Credits
 
 I got the icons from [Font Awsome](https://fontawesome.com/icons?d=gallery).
 
 The font on the mobile header is called Yellowtail and i got it from [Google Fonts](https://fonts.google.com/).
+
+To get the map i used the [Google Maps API](https://cloud.google.com/maps-platform/).
 
 For my javascript i rely heavily on [jQuery](https://jquery.com/).
 
@@ -51,6 +55,33 @@ I embedded the cv pdf file using [POWR](https://www.powr.io/).
 The mailservice i use is called [EmailJS](https://www.emailjs.com/).
 
 I have also recieved help from my mentor Excellence Ilesanmi and the tutor team.
+
+## Deployment
+
+## Bugs
+
+## Testing
+
+### CSS validation
+
+When running the code in the W3C css validation service it gives me no errors but one warning ("Imported style sheets are not checked in direct input and file upload modes"
+
+### HTML validation
+
+Homepage: No errors or warnings.
+
+About: No errors or warnings.
+
+Workplaces: No errors, 7 warnings: 6 "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" and 1 "The type attribute is unnecessary for JavaScript resources".
+
+Testimonials: No errors, 5 warnings: 4 "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" and 1 "The type attribute is unnecessary for JavaScript resources".
+
+CV: 1 error: "Stray start tag script". 2 warnings: 1 "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections" and 1 "The type attribute is unnecessary for JavaScript resources".
+### Javascript validation
+### Lighthouse
+### Manual testing
+
+
 
 
 
