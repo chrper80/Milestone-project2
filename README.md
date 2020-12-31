@@ -47,7 +47,7 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 * Javascript
   * Javascript is used to create interactivity on the website.
 *  [JQuery](https://jquery.com/)
-  * Is used to simplify DOM manipulation.
+   * Is used to simplify DOM manipulation.
 * [SweetAlert2](https://sweetalert2.github.io/).
   * For the popups that comes when succeeding or failing to send a message using the contactform.
 * [Font Awsome](https://fontawesome.com/icons?d=gallery)
