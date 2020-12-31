@@ -68,15 +68,50 @@ When running the code in the W3C css validation service it gives me no errors bu
 
 ### HTML validation
 
-Homepage: No errors or warnings.
+#### Homepage
 
-About: No errors or warnings.
+No errors or warnings.
 
-Workplaces: No errors, 7 warnings: 6 "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" and 1 "The type attribute is unnecessary for JavaScript resources".
+#### About
 
-Testimonials: No errors, 5 warnings: 4 "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" and 1 "The type attribute is unnecessary for JavaScript resources".
+No errors or warnings.
 
-CV: 1 error: "Stray start tag script". 2 warnings: 1 "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections" and 1 "The type attribute is unnecessary for JavaScript resources".
+#### Workplaces
+
+##### Error
+
+No error.
+
+##### Warning
+
+6: "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" .
+
+1: "The type attribute is unnecessary for JavaScript resources".
+
+#### Testimonials
+
+##### Error
+
+No Error.
+
+##### Warning
+
+4: "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles".
+
+1: "The type attribute is unnecessary for JavaScript resources".
+
+#### CV
+
+##### Error 
+
+1 "Stray start tag script". 
+
+##### Warning
+
+1: "Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections"
+
+1: "The type attribute is unnecessary for JavaScript resources".
+
 ### Javascript validation
 ### Lighthouse
 ### Manual testing
