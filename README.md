@@ -150,10 +150,49 @@ No error.
 
 1: Do not use 'new' for side effects.
 
-It also gives me that there is 10 unused variable, but that is because i use jQuery in the function.
+4: missing semicolon. *I fixed those.*
 
+It also gives me that there are 10 unused variables, but that is because i use jQuery in the function.
 
 ### Lighthouse
+
+#### Home
+
+##### Mobile
+
+* Performance: 88
+* Accessibility: 95
+* Best practices: 100
+* SEO: 92
+
+##### Desktop
+
+* Performance: 99
+* Accessibility: 95
+* Best practices: 100
+* SEO: 90
+
+#### About
+
+##### Mobile
+
+* Performance: 73
+* Accessibility: 91
+* Best practices: 100
+* SEO: 92
+
+##### Desktop
+
+* Performance: 95
+* Accessibility: 91
+* Best practices: 100
+* SEO: 90
+
+#### Workplaces
+
+##### Mobile
+
+
 ### Manual testing
 
 
