@@ -78,10 +78,6 @@ No errors or warnings.
 
 #### Workplaces
 
-##### Error
-
-No error.
-
 ##### Warning
 
 6: "Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles" .
@@ -89,10 +85,6 @@ No error.
 1: "The type attribute is unnecessary for JavaScript resources".
 
 #### Testimonials
-
-##### Error
-
-No Error.
 
 ##### Warning
 
