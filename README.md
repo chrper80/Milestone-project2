@@ -36,6 +36,10 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
 
+### Accessibility
+
+I would like to mention the about page on desktop. When hovering over the paragraphs there is a change of state. I have been working with people with ADHD and dyslexia as an occupational therapist and i know they get easily distracted by loads of stimuli. That´s why i made it this way. I was thinking about making the paragraphs not currently being hovered go away completely, but i thought it looked better like this and then you also know where the other items are and what they are about. For people with bad eyesight, black and white gives the best contrast, so i had the background of the items being hovered change to white. I would definately consider taking this further in some cases.  
+
 ## Technologies used
 
 * HTML
@@ -63,11 +67,11 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ### Content
 
-The button that takes the user back to top, a member of the tutor team helped me with that one.
+* The button that takes the user back to top, a member of the tutor team helped me with that one.
 
-My mentor helped me with the popups that shows up when submitting the contact form. He both introduced me to SweetAlert and helped med implement it.
+* My mentor helped me with the popups that shows up when submitting the contact form. He both introduced me to SweetAlert and helped med implement it.
 
-I also recieved a lot of help from a member of the tutor team with making the EmailJS service work. 
+* I also recieved a lot of help from a member of the tutor team with making the EmailJS service work. 
 
 ### Media
 
@@ -75,9 +79,9 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 ## Deployment
 
-In the GitHub repo, go to settings, scroll down to GitHub pages, change to master branch and press save. 
+* In the GitHub repo, go to settings, scroll down to GitHub pages, change to master branch and press save. 
 
-When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to 0 border-radius, but it seems the browsers adds some things by them self. 
+* When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to 0 border-radius, but it seems the browsers adds some things by them self. 
 
 
 ## Bugs
@@ -281,20 +285,19 @@ It also gives me that there are 10 unused variables, but that is because i use j
 * Best practices: 100
 * SEO: 90
 
-
 ### Manual testing on mobile
 
 *  Go to home page 
     * Click the hamburger icon, then on every menu item
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
 
 * Go to about page
     * Click the hamburger icon, then on every menu item
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
     
 * Go to Workplaces
     * Click the hamburger icon, then on every menu item
@@ -303,7 +306,7 @@ Result: everything works as intended.
     * When pressing the buttons, make sure also that only one card opens
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
     
 * Go to Testimonials
     * Click the hamburger icon, then on every menu item
@@ -312,13 +315,13 @@ Result: everything works as intended.
     * When pressing the buttons, make sure also that only one card opens
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
-Result: error code 404 and file not found when clicking the menu item "Testimonials". I had forgotten to change the link. I fixed it and now everything works as intended.
+**Result**: error code 404 and file not found when clicking the menu item "Testimonials". I had forgotten to change the link. I fixed it and now everything works as intended.
 
 * Go to CV
     * Click the hamburger icon, then on every menu item
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
 
-Everything works as intended.
+**Result** Everything works as intended.
 
 * Go to Contact page
     * Fill in the form and send it, a confirmation should come up
@@ -327,7 +330,7 @@ Everything works as intended.
     * Go to the hamburger menu and try all the items
     * Scroll down to the footer and test all the items, make sure everything opens in new windows that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
 
 ### Manual testing on desktop
 
@@ -336,7 +339,7 @@ Result: everything works as intended.
    * Hover over the menu items to see that the state changes
    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
     
 * Go to About
    * Test all the menu items by clicking and hovering over them
@@ -344,7 +347,7 @@ Result: everything works as intended.
    * When the mouse is moved to white space, all items should be fully visible again
    * Scroll to the footer and test all the icons by hovering and clicking, make sure everything opens in a new window that should
     
-Result: everything works as intended.
+**Result**: everything works as intended.
     
 * Go to Workplaces
    * Test all the menu items by clicking and hovering over them
@@ -354,7 +357,7 @@ Result: everything works as intended.
    * When pressing the buttons, make sure also that only one card opens
    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
    
-Result: everything works as intended.
+**Result**: everything works as intended.
     
 * Go to Testimonials
    * Test all the menu items by clicking and hovering over them
@@ -364,23 +367,25 @@ Result: everything works as intended.
    * When pressing the buttons, make sure also that only one card opens
    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
    
-Result: everything works as intended.
-
+**Result**: everything works as intended.
 
 * Go to CV
    * Try the menu items by hovering and clicking
    * Try the functions of the pdf
    * Scroll down to the footer and try all the icons by hovering and clicking, make sure everything opens in a new window that should
     
-Result: everything is working as intended.
+**Result**: everything is working as intended.
     
 * Go to the Contact page
-    * Fill out and send the form and see if there comes a popup confirmation
-    * Turn off the wifi and do the same as above, wait for the error message
-    * When the form is sent, it should reset
-    * Try all the menu items by clicking and hovering
-    * Hover over the red marker on the map to see a little message
-    * Scroll down to the footer and try thi icons by clicking and hovering, make sure everything opens in a new window
+   * Fill out and send the form and see if there comes a popup confirmation
+   * Turn off the wifi and do the same as above, wait for the error message
+   * When the form is sent, it should reset
+   * hover over the button to see a change of state
+   * Try all the menu items by clicking and hovering
+   * Hover over the red marker on the map to see a little message
+   * Scroll down to the footer and try the icons by clicking and hovering, make sure everything opens in a new window
+    
+**Result**: everything works as intended.
 
 
     
