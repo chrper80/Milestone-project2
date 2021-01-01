@@ -286,13 +286,13 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 *  Go to home page 
     * Click the hamburger icon, then on every menu item
-    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
 Result: everything works as intended.
 
 * Go to about page
     * Click the hamburger icon, then on every menu item
-    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
 Result: everything works as intended.
     
@@ -301,7 +301,7 @@ Result: everything works as intended.
     * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
     * Press the button again and see the text hide and the text on the button should change back to "Read More"
     * When pressing the buttons, make sure also that only one card opens
-    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
 Result: everything works as intended.
     
@@ -310,13 +310,13 @@ Result: everything works as intended.
     * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
     * Press the button again and see the text hide and the text on the button should change back to "Read More"
     * When pressing the buttons, make sure also that only one card opens
-    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
     
 Result: error code 404 and file not found when clicking the menu item "Testimonials". I had forgotten to change the link. I fixed it and now everything works as intended.
 
 * Go to CV
     * Click the hamburger icon, then on every menu item
-    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
 
 Everything works as intended.
 
@@ -325,42 +325,54 @@ Everything works as intended.
     * Turn off the wifi and repeat the above process, an error message should come up
     * When the form is sent it should reset
     * Go to the hamburger menu and try all the items
-    * Scroll down to the footer and test all the items, make sure everything opens in new windows
+    * Scroll down to the footer and test all the items, make sure everything opens in new windows that should
     
 Result: everything works as intended.
 
 ### Manual testing on desktop
 
 * Go to Home
-    * Test all the menu items by clicking and hovering over them
-    * Hover over the menu items to see that the state changes
-    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
+   * Test all the menu items by clicking and hovering over them
+   * Hover over the menu items to see that the state changes
+   * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
+    
+Result: everything works as intended.
     
 * Go to About
-    * Test all the menu items by clicking and hovering over them
-    * Hover over all the paragraphs to see the other paragraphs fade and some changes occur on the paragraph you are hovering over
-    * Scroll to the footer and test all the icons by hovering and clicking, make sure everything opens in a new window
+   * Test all the menu items by clicking and hovering over them
+   * Hover over all the paragraphs to see the other paragraphs fade and some changes occur on the paragraph you are hovering over
+   * When the mouse is moved to white space, all items should be fully visible again
+   * Scroll to the footer and test all the icons by hovering and clicking, make sure everything opens in a new window that should
+    
+Result: everything works as intended.
     
 * Go to Workplaces
-    * Test all the menu items by clicking and hovering over them
-    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
-    * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
-    * Hover over all buttons and see a change of state
-    * When pressing the buttons, make sure also that only one card opens
-    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
+   * Test all the menu items by clicking and hovering over them
+   * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+   * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
+   * Hover over all buttons and see a change of state
+   * When pressing the buttons, make sure also that only one card opens
+   * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
+   
+Result: everything works as intended.
     
 * Go to Testimonials
-    * Test all the menu items by clicking and hovering over them
-    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
-    * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
-    * Hover over all buttons and see a change of state
-    * When pressing the buttons, make sure also that only one card opens
-    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
-    
+   * Test all the menu items by clicking and hovering over them
+   * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+   * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
+   * Hover over all buttons and see a change of state
+   * When pressing the buttons, make sure also that only one card opens
+   * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window that should
+   
+Result: everything works as intended.
+
+
 * Go to CV
-    * Try the menu items by hovering and clicking
-    * Try the functions of the pdf
-    * Scroll down to the footer and try all the icons by hovering and clicking, make sure everything opens in a new window
+   * Try the menu items by hovering and clicking
+   * Try the functions of the pdf
+   * Scroll down to the footer and try all the icons by hovering and clicking, make sure everything opens in a new window that should
+    
+Result: everything is working as intended.
     
 * Go to the Contact page
     * Fill out and send the form and see if there comes a popup confirmation
