@@ -282,12 +282,38 @@ It also gives me that there are 10 unused variables, but that is because i use j
 * SEO: 90
 
 
-### Manual testing
+### Manual testing on mobile
 
-*  Go to home page on mobile 
+*  Go to home page 
     * Click the hamburger icon, then on every menu item
-    * Then go to the footer and click all 3 icons
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    
 Result: everything works as intended.
+
+* Go to about page
+    * Click the hamburger icon, then on every menu item
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    
+Result: everything works as intended.
+    
+* Go to workplaces
+    * Click the hamburger icon, then on every menu item
+    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+    * Press the button again and see the text hide and the text on the button should change back to "Read More"
+    * When pressing the buttons, make sure also that only one card opens
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    
+Result: everything works as intended.
+    
+* Go to testimonials
+    * Click the hamburger icon, then on every menu item
+    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+    * Press the button again and see the text hide and the text on the button should change back to "Read More"
+    * When pressing the buttons, make sure also that only one card opens
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+    
+Result: error code 404 and file not found when clicking the menu item "Testimonials". I had forgotten to change the link. I fixed it and now everything works as intended.
+    
 
 
 
