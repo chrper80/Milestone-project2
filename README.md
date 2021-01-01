@@ -39,25 +39,25 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 ## Technologies used
 
 * HTML
-   * The structure of the website is created using HTML5.
+    * The structure of the website is created using HTML5.
 * CSS
-  * The styling is added with CSS3.
+    * The styling is added with CSS3.
 * Javascript
-  * Javascript is used to create interactivity on the website.
+    * Javascript is used to create interactivity on the website.
 *  [JQuery](https://jquery.com/)
-   * Is used to simplify DOM manipulation.
+    * Is used to simplify DOM manipulation.
 * [SweetAlert2](https://sweetalert2.github.io/).
-  * For the popups that comes when succeeding or failing to send a message using the contactform.
+    * For the popups that comes when succeeding or failing to send a message using the contactform.
 * [Font Awsome](https://fontawesome.com/icons?d=gallery)
-  * I got the icons from them.
+    * I got the icons from them.
 * [Google Fonts](https://fonts.google.com/)
-  * The font on the mobile header is called Yellowtail and i got it from Google Fonts.
+    * The font on the mobile header is called Yellowtail and i got it from Google Fonts.
 * [Google Maps API](https://cloud.google.com/maps-platform/)
-  * I used this Google service for the map on the contact page.
+    * I used this Google service for the map on the contact page.
 * [POWR](https://www.powr.io/)
-  * I used their embed PDF app to embed the PDF on the CV page.
+    * I used their embed PDF app to embed the PDF on the CV page.
 * [EmailJS](https://www.emailjs.com/)
-  * I used their email service for my contact form.
+    * I used their email service for my contact form.
  
 ## Credits
 
@@ -327,6 +327,38 @@ Everything works as intended.
     * Scroll down to the footer and test all the items, make sure everything opens in new windows
     
 Result: everything works as intended.
+
+### Manual testing on desktop
+
+* Go to Home
+    * Test all the menu items by clicking and hovering over them
+    * Hover over the menu items to see that the state changes
+    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
+    
+* Go to About
+    * Test all the menu items by clicking and hovering over them
+    * Hover over all the paragraphs to see the other paragraphs fade and some changes occur on the paragraph you are hovering over
+    * Scroll to the footer and test all the icons by hovering and clicking, make sure everything opens in a new window
+    
+* Go to Workplaces
+    * Test all the menu items by clicking and hovering over them
+    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+    * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
+    * Hover over all buttons and see a change of state
+    * When pressing the buttons, make sure also that only one card opens
+    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
+    
+* Go to Testimonials
+    * Test all the menu items by clicking and hovering over them
+    * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
+    * Press the buttons again and see the text hide and the text on the button should change back to "Read More"
+    * Hover over all buttons and see a change of state
+    * When pressing the buttons, make sure also that only one card opens
+    * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
+    
+* Go to CV
+    * 
+    
 
 
     
