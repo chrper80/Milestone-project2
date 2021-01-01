@@ -323,6 +323,7 @@ Everything works as intended.
 * Go to Contact page
     * Fill in the form and send it, a confirmation should come up
     * Turn off the wifi and repeat the above process, an error message should come up
+    * When the form is sent it should reset
     * Go to the hamburger menu and try all the items
     * Scroll down to the footer and test all the items, make sure everything opens in new windows
     
@@ -357,8 +358,17 @@ Result: everything works as intended.
     * Scroll to the bottom and test all the icons by hovering and clicking, make sure everything opens in a new window
     
 * Go to CV
-    * 
+    * Try the menu items by hovering and clicking
+    * Try the functions of the pdf
+    * Scroll down to the footer and try all the icons by hovering and clicking, make sure everything opens in a new window
     
+* Go to the Contact page
+      * Fill out and send the form and see if there comes a popup confirmation
+      * Turn off the wifi and do the same as above, wait for the error message
+      * When the form is sent, it should reset
+      * Try all the menu items by clicking and hovering
+      * Hover over the red marker on the map to see a little message
+      * Scroll down to the footer and try thi icons by clicking and hovering, make sure everything opens in a new window
 
 
     
