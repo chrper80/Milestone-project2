@@ -296,7 +296,7 @@ Result: everything works as intended.
     
 Result: everything works as intended.
     
-* Go to workplaces
+* Go to Workplaces
     * Click the hamburger icon, then on every menu item
     * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
     * Press the button again and see the text hide and the text on the button should change back to "Read More"
@@ -305,7 +305,7 @@ Result: everything works as intended.
     
 Result: everything works as intended.
     
-* Go to testimonials
+* Go to Testimonials
     * Click the hamburger icon, then on every menu item
     * Click the button on all the cards, more text should be revealed, the text on the button should change to "Show Less"
     * Press the button again and see the text hide and the text on the button should change back to "Read More"
@@ -313,6 +313,22 @@ Result: everything works as intended.
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
     
 Result: error code 404 and file not found when clicking the menu item "Testimonials". I had forgotten to change the link. I fixed it and now everything works as intended.
+
+* Go to CV
+    * Click the hamburger icon, then on every menu item
+    * Scroll down to the footer and make sure all the icons work and that everything opens in a new window
+
+Everything works as intended.
+
+* Go to Contact page
+    * Fill in the form and send it, a confirmation should come up
+    * Turn off the wifi and repeat the above process, an error message should come up
+    * Go to the hamburger menu and try all the items
+    * Scroll down to the footer and test all the items, make sure everything opens in new windows
+    
+Result: everything works as intended.
+
+
     
 
 
