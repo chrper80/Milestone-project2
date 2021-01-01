@@ -59,7 +59,7 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 * [POWR](https://www.powr.io/)
   * I used their embed PDF app to embed the PDF on the CV page.
 * [EmailJS](https://www.emailjs.com/)
-  * I used there email service for my contact form.
+  * I used their email service for my contact form.
  
 
 
@@ -80,9 +80,19 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ### CSS validation with W3C css validation service
 
+#### To use [css validation service](https://jigsaw.w3.org/css-validator/)
+
+There are different options, but the one i used was "by direct input". You just copy your code and past it in.
+
+##### Result
+
 No errors but one warning ("Imported style sheets are not checked in direct input and file upload modes").
 
 ### HTML validation with W3C Logo Markup Validation Service
+
+#### To use [W3C Logo Markup Validation Service](https://validator.w3.org/)
+
+I used the "validation by direct input". You just copy your code and paste it in.
 
 #### Homepage
 
@@ -151,10 +161,6 @@ No error.
 5: The type attribute is unnecessary for JavaScript resources.
 
 ### Javascript validation with JSHint
-
-#### Error
-
-No error.
 
 #### Warning
 
@@ -234,6 +240,38 @@ It also gives me that there are 10 unused variables, but that is because i use j
 * Accessibility: 89
 * Best practices: 100
 * SEO: 89
+
+#### CV
+
+##### Mobile
+
+* Performance: 83
+* Accessibility: 81
+* Best practices: 86
+* SEO: 91
+
+##### Desktop
+
+* Performance: 96
+* Accessibility: 81
+* Best practices: 93
+* SEO: 89
+
+#### Contact
+
+##### Mobile
+
+* Performance: 55
+* Accessibility: 98
+* Best practices: 93
+* SEO: 90
+
+##### Desktop
+
+* Performance: 99
+* Accessibility: 98
+* Best practices: 100
+* SEO: 90
 
 
 ### Manual testing
