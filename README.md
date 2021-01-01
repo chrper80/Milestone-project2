@@ -11,14 +11,14 @@ The reason for this website is to show Neemas skills and experiences to potentia
 ### Scope plane
 
 The features that Neema wanted on her page are:
+1. A home page with an image.
 1. An about section with a short summary about values, interests, top skills and what kind of worker she is.
+1. A page with info on former and current workplaces.
+1. A testimonials page.
 1. A page with the CV on it.
 1. A contact page with a contact form.
-1. A testimonials page.
 1. A map displaying where she lives.
 1. Links to her LinkedIn page, phone and email.
-1. A page with info on former and current workplaces.
-1. A frontpage with an image.
 
 ### Structure plane
 
@@ -83,7 +83,6 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 * When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to 0 border-radius, but it seems the browsers adds some things by them self. 
 
-
 ## Bugs
 
 When clicking menu items on mobile, a little blue books comes up, that i didn´t add. I haven´t managed to take it away. 
@@ -92,7 +91,7 @@ When clicking menu items on mobile, a little blue books comes up, that i didn´t
 
 ### CSS validation with W3C css validation service
 
-#### To use [css validation service](https://jigsaw.w3.org/css-validator/)
+#### To use [W3C css validation service](https://jigsaw.w3.org/css-validator/)
 
 There are different options, but the one i used was "by direct input". You just copy your code and past it in.
 
@@ -173,6 +172,10 @@ No error.
 5: The type attribute is unnecessary for JavaScript resources.
 
 ### Javascript validation with JSHint
+
+#### To use [Javascript validation with JSHint](https://jshint.com/)
+
+You just copy your code and paste it in, then you get a report on the right side of the screen.
 
 #### Warning
 
