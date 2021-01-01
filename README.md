@@ -68,11 +68,21 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 ## Credits
 
-### Acknowledgements
+### Content
 
+The button that takes the user back to top, a member of the tutor team helped me with that one.
 
+My mentor helped me with the popups that shows up when submitting the contact form. He both introduced me to SweetAlert and helped med implement it.
+
+I also recieved a lot of help from a member of the tutor team with making the EmailJS service work. 
+
+### Media
+
+Those images are my own work, but Neema was kind to let me use them for this project.
 
 ## Deployment
+
+
 
 ## Bugs
 
