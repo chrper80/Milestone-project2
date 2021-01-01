@@ -81,7 +81,7 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 * In the GitHub repo, go to settings, scroll down to GitHub pages, change to master branch and press save. 
 
-* When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to 0 border-radius, but it seems the browsers adds some things by them self. 
+* When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to have 0 border-radius, but it seems the browsers adds some things by them self. 
 
 ## Bugs
 
