@@ -22,7 +22,7 @@ The features that Neema wanted on her page are:
 
 ### Structure plane
 
-I went for a hierachical structure because it takes away complexity. We wanted the visitors to get the impression that she is very organized (that is one of her greatest skills), so we wanted her website to be very easy to navigate. I wanted to add states chenges to give the user feedback that something is going to happen or that something has happened as a result of their actions. I also wanted clear feedback so they know if there is an error or if they succeeded.
+I went for a hierachical structure because it takes away complexity. We wanted the visitors to get the impression that she is very organized (that is one of her greatest skills), so we wanted her website to be very easy to navigate. I wanted to add state changes to give the user feedback that something is going to happen or that something has happened as a result of their actions. I also wanted clear feedback so they know if there is an error or if they succeeded.
 
 ### Skeleton plane
 
