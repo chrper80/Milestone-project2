@@ -61,11 +61,6 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 * [EmailJS](https://www.emailjs.com/)
   * I used their email service for my contact form.
  
-
-
-
-
-
 ## Credits
 
 ### Content
@@ -82,9 +77,14 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 ## Deployment
 
+In the GitHub repo, go to settings, scroll down to GitHub pages, change to master branch and press save. 
+
+When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there is some changes that i didn´t want. I wanted my buttons and input fields to 0 border-radius, but it seems the browsers adds some things by them self. 
 
 
 ## Bugs
+
+When clicking menu items on mobile, a little blue books comes up, that i didn´t add. I haven´t managed to take it away. 
 
 ## Testing
 
