@@ -32,8 +32,6 @@ I wanted to add a clear and easy navigation and i wanted it to be on top. I also
 
 Neema wanted the font Gill Sans because she wanted to give the impression of being professional and friendly. We agreed on using a deep, dark green because it´s very calming. I decided on using red for the hovering effect over the menu items because it gives a good contrast and the colors go well together. It´s also important from a accessibility point of view with high contrast. An example is for people with impaired eyesight. Clear contrast makes it easier for them to read. But also for people with perfect sight, it feels better to read when there is a clear separation between background and foreground.
 
-### Accessibility
-
 ### Wireframes
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
@@ -285,6 +283,11 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 
 ### Manual testing
+
+*  Go to home page on mobile 
+    * Click the hamburger icon, then on every menu item
+    * Then go to the footer and click all 3 icons
+Result: everything works as intended.
 
 
 
