@@ -85,7 +85,7 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 ## Bugs
 
-When clicking menu items on mobile, a little blue books comes up, that i didn´t add. I haven´t managed to take it away. 
+I have had some troubles getting the footer to stay down on the homepage, since i have so little content there. I wanted to practice using css grid in this project, so i didn´t get the [Method i got from the tutorteam](https://matthewjamestaylor.com/bottom-footer) to work. Instead i found [this method](https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf). It worked pretty well. Note to self though, i need more practice using the grid and it´s a good idea to have enough content on the pages to keep it down. 
 
 ## Testing
 
@@ -389,6 +389,10 @@ It also gives me that there are 10 unused variables, but that is because i use j
    * Scroll down to the footer and try the icons by clicking and hovering, make sure everything opens in a new window
     
 **Result**: everything works as intended.
+
+## Different screens
+
+It looks really nice on my iphone 8, my laptop and my 24.1 screen. On my laptop, when i preview it in DEV tools, it looks really nice at all the breakpoints up to 1440px, after that it looks funky. But since it looks good on my 24.1 screen outside DEV tools, it doesn´t seem to be a problem. 
 
 
     
