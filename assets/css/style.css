@@ -437,7 +437,7 @@ footer{
     grid-column-start: 2;
     grid-column-end: 12;
     grid-row-start: 2;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-bottom: 70px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -454,6 +454,7 @@ footer{
     grid-template-rows: 10px 45px 45px 45px 45px 15px auto;
     text-align: center;
     box-shadow: 2px 2px 2px rgba(121, 121, 121, 0.5);
+    font-size: 1.1rem;
 }
 
 .card-1{
@@ -838,32 +839,33 @@ form{
 }
 
 .testimonials-card{
-    flex: 200px;
+    flex: 250px;
     margin: 10px 10px 10px 10px;
 }
 .testimonials-inner-card{
-    height: 200px;
+    height: 300px;
     background-color: rgb(233, 233, 233);
     text-align: center;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
+    font-size: 1.1rem;
 }
 
 .testimonials-inner-card h1{
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 .testimonials-inner-card h3{
-    padding-top: 5px;
+    padding-top: 15px;
 }
 
 .testimonials-inner-card p{
-    padding-top: 20px;
+    padding-top: 45px;
 }
 
 .testimonial-button{
     width: 100%;
-    height: 40px;
+    height: 60px;
     color: rgb(233, 233, 233);
     background-color: rgb(2, 46, 0);
     display: flex;
@@ -896,22 +898,20 @@ form{
 }
 
 .change-bg-color-about{
-    font-size: 1.2rem;
-    width: 250px;
-    text-align: left;
-    padding: 5px;
     border: 1px solid black;
     background-color: white;
+    text-align: left;
+    padding: 5px;
 }
 .reduce-opacity-about{
-    opacity: 0;
+    opacity: 0.2;
 }
 }
 
-/*Max-width from 1440px*/
-@media(min-width: 1440px){
+/*Max-width from 1295px*/
+@media(min-width: 1295px){
     body{
-        max-width: 1440px;
+        max-width: 1024px;
         margin: auto;
     }
     
