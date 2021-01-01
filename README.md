@@ -223,8 +223,17 @@ It also gives me that there are 10 unused variables, but that is because i use j
 #### Testimonials
 
 ##### Mobile
+* Performance: 95
+* Accessibility: 89
+* Best practices: 100
+* SEO: 91
 
 ##### Desktop
+
+* Performance: 99
+* Accessibility: 89
+* Best practices: 100
+* SEO: 89
 
 
 ### Manual testing
