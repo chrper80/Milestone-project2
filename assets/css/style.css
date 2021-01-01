@@ -789,6 +789,7 @@ form{
     text-align: center;
     display: grid;
     grid-template-rows: auto auto 1fr auto;
+    box-shadow: 3px 3px 3px rgb(145, 145, 145);
 }
 
 .testimonials-inner-card h1{
