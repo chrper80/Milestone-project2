@@ -97,7 +97,7 @@ There are different options, but the one i used was "by direct input". You just 
 
 ##### Result
 
-No errors but one warning ("Imported style sheets are not checked in direct input and file upload modes").
+No errors but one warning ("Imported style sheets are not checked in direct input and file upload modes"). *I remember getting the same warning in the last project. A tutor told me since it´s not my stylesheat, i can leave it. So i do the same now*
 
 ### HTML validation with W3C Logo Markup Validation Service
 
@@ -133,9 +133,9 @@ No error.
 
 ##### Warning
 
-6: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
+6: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. *Check with mentor, wrong container?*
 
-1: The type attribute is unnecessary for JavaScript resources.
+1: The type attribute is unnecessary for JavaScript resources. *Removed the type attribute from the script containing my main.js file*
 
 #### Testimonials
 
@@ -147,19 +147,19 @@ No error.
 
 4: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
 
-1: The type attribute is unnecessary for JavaScript resources.
+1: The type attribute is unnecessary for JavaScript resources. *Removed*
 
 #### CV
 
 ##### Error 
 
-1: Stray start tag script. 
+1: Stray start tag script. *Check with mentor*
 
 ##### Warning
 
 1: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
 
-1: The type attribute is unnecessary for JavaScript resources.
+1: The type attribute is unnecessary for JavaScript resources. *Removed*
 
 #### Contacts
 
@@ -169,7 +169,7 @@ No error.
 
 ##### Warning
 
-5: The type attribute is unnecessary for JavaScript resources.
+5: The type attribute is unnecessary for JavaScript resources. *Removed the one in the script tag containing my main.js file*
 
 ### Javascript validation with JSHint
 
@@ -213,7 +213,7 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 ##### Mobile
 
-* Performance: 73
+* Performance: 73: *The biggest reason here is that the image is to big. It´s still ok though for the purpose of this site"
 * Accessibility: 91
 * Best practices: 100
 * SEO: 92
@@ -276,7 +276,7 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 ##### Mobile
 
-* Performance: 55
+* Performance: 55: *Chrome extensions had a negative inpact on loading time. It also suggest i have some unused js. Check with mentor*
 * Accessibility: 98
 * Best practices: 93
 * SEO: 90
