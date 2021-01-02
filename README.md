@@ -36,6 +36,13 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
 
+![Mockup1](assets/images/Capture1.PNG)
+![Mockup2](assets/images/Capture2.PNG)
+![Mockup3](assets/images/Capture3.PNG)
+![Mockup4](assets/images/Capture4.PNG)
+![Mockup5](assets/images/Capture5.PNG)
+![Mockup6](assets/images/Capture6.PNG)
+
 ### Accessibility
 
 I would like to mention the about page on desktop. When hovering over the paragraphs there is a change of state. I have been working with people with ADHD and dyslexia as an occupational therapist and i know they get easily distracted by loads of stimuli. That´s why i made it this way. I was thinking about making the paragraphs not currently being hovered go away completely, but i thought it looked better like this and then you also know where the other items are and what they are about. For people with bad eyesight, black and white gives the best contrast, so i had the background of the items being hovered change to white. I would definately consider taking this further in some cases.  
