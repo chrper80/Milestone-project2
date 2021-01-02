@@ -206,7 +206,7 @@ You just copy your code and paste it in, then you get a report on the right side
 
 4: missing semicolon. *I fixed those.*
 
-It also gives me that there are 10 unused variables. It´s when i use jQuery. My mentor says i don´t have to worry about those.
+It also gives me that there are 10 unused variables. *It´s when i use jQuery. My mentor says i don´t have to worry about those*
 
 ### Lighthouse
 
@@ -406,6 +406,24 @@ It also gives me that there are 10 unused variables. It´s when i use jQuery. My
    * Scroll down to the footer and try the icons by clicking and hovering, make sure everything opens in a new window
     
 **Result**: everything works as intended. 
+
+## Evaluation of the Strategy plane
+
+"The reason for this website is to show Neemas skills and experiences to potential employers. The target audience are recruiters and hiring managers. The needs of the persons in those roles would be to see her skills, experiences and achievements. They would also be interested in knowing about Neema as a person, if she works better as an individual or in a team, if she is social and her values (for instance that she finds sustainability very important). Neemas needs are to showcase her skills, what she is capable of, who she is and her experience."
+
+* Neema
+   * Her skills and experiences are on display in the about section
+   * There is a link to the LinkedIn profile and there is also information on her skills and experiences
+   * As a complement there is also a testimonials page where other people are talking about her skills
+   * There is also an imbedded CV on the CV page, this tells about her experiences and her education
+   
+* Target audience
+   * Skills, achievements, values and what kind of a worker/person she is, that´s on display on the about page
+   * In case they want more info, there is a link to her LinkedIn profile
+   * Her CV in the CV page tells them what they need to know about working experiences, languages she speaks and education
+   * They can get additional info from the testimonials page
+
+
 
 
     
