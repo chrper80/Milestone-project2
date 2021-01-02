@@ -196,7 +196,7 @@ You just copy your code and paste it in, then you get a report on the right side
 
 #### Warning
 
-3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*The official CI document states i don´t have to worry about this*
+3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *The official CI document states i don´t have to worry about this*
 
 2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *The official CI document states i don´t have to worry about this*
 
@@ -412,8 +412,8 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 "The reason for this website is to show Neemas skills and experiences to potential employers. The target audience are recruiters and hiring managers. The needs of the persons in those roles would be to see her skills, experiences and achievements. They would also be interested in knowing about Neema as a person, if she works better as an individual or in a team, if she is social and her values (for instance that she finds sustainability very important). Neemas needs are to showcase her skills, what she is capable of, who she is and her experience."
 
 * Neema
-   * Her skills and achievements are on display in the about section
-   * There is a link to the LinkedIn profile where there is also information on her skills, achievements and experiences
+   * Her skills, values, who she is as a worker and achievements are on display in the about section
+   * There is a link to the LinkedIn profile where there is also information on her skills, values, achievements and experiences
    * In the workplaces section there is info on earlier and current workplaces
    * As a complement there is also a testimonials page where other people are talking about her skills
    * There is also an imbedded CV on the CV page, that tells about her experiences, what languages she speak and her education
