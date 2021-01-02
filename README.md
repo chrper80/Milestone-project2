@@ -87,9 +87,18 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 ## Deployment
 
-* In the GitHub repo, go to settings, scroll down to GitHub pages, change to master branch and press save. 
+* Go to the GitHub repository
+   * Find the settings in the menubar on top and click there
+   * Scroll down until you come to GitHub Pages
+   * Below source, change the branch to master
+   * To the right of the branch, it should be root
+   * Click save
+   * It now says your site is published
+   * Copy the link and paste it into your browser
 
-* When i am looking at the website on desktop it looks as expected. However when i am looking at it on mobile in Chrome and Safari, there are some changes that i didn´t want. I wanted my buttons and input fields to have 0 border-radius, but it seems the browsers adds some things by them self. 
+* When i am looking at the website on desktop it looks as expected in Edge, Chrome and Firefox. However when i am looking at it on iPhone 8 in Chrome and Safari, there are some changes that i didn´t intended (works ok though). I wanted my buttons and input fields to have 0 border-radius, but it seems the browsers adds some things by them self. My girlfriend has the Android browser, and there it looks as intended.
+
+* It looks really nice on my iphone 8, my laptop and my 24.1 screen and also on my girlfriends Samsung Galaxy Note 10.
 
 ## Bugs
 
@@ -141,7 +150,7 @@ No error.
 
 ##### Warning
 
-6: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. *Check with mentor, wrong container?*
+6: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. *Changed container to div after consulting with my mentor*
 
 1: The type attribute is unnecessary for JavaScript resources. *Removed the type attribute from the script containing my main.js file*
 
@@ -153,7 +162,7 @@ No error.
 
 ##### Warning
 
-4: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles.
+4: Article lacks heading. Consider using h2-h6 elements to add identifying headings to all articles. *Same as above*
 
 1: The type attribute is unnecessary for JavaScript resources. *Removed*
 
@@ -161,11 +170,11 @@ No error.
 
 ##### Error 
 
-1: Stray start tag script. *Check with mentor, line 69-70*
+1: Stray start tag script. *Moved the script to it´s correct location*
 
 ##### Warning
 
-1: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections.
+1: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections. *I decided not to have a heading here*
 
 1: The type attribute is unnecessary for JavaScript resources. *Removed*
 
@@ -187,17 +196,17 @@ You just copy your code and paste it in, then you get a report on the right side
 
 #### Warning
 
-3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*Check with mentor*
+3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*The official CI document states i don´t have to worry about this*
 
-2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *Check with mentor*
+2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *The official CI document states i don´t have to worry about this*
 
-1: 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *Check with mentor*
+1: 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *My mentor says i don´t have to worry about this*
 
-1: Do not use 'new' for side effects. *Check with mentor*
+1: Do not use 'new' for side effects. *Not my code, so mentor says don´t worry about this*
 
 4: missing semicolon. *I fixed those.*
 
-It also gives me that there are 10 unused variables, but that is because i use jQuery in the function.
+It also gives me that there are 10 unused variables. It´s when i use jQuery. My mentor says i don´t have to worry about those.
 
 ### Lighthouse
 
@@ -284,7 +293,7 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 ##### Mobile
 
-* Performance: 55: *Chrome extensions had a negative inpact on loading time. It also suggest i have some unused js. Check with mentor*
+* Performance: 55: *Mostly because of external libraries. Overall ok performance though, so my mentor says it´s ok for now*
 * Accessibility: 98
 * Best practices: 93
 * SEO: 90
@@ -396,11 +405,7 @@ It also gives me that there are 10 unused variables, but that is because i use j
    * Hover over the red marker on the map to see a little message
    * Scroll down to the footer and try the icons by clicking and hovering, make sure everything opens in a new window
     
-**Result**: everything works as intended.
-
-## Different screens
-
-It looks really nice on my iphone 8, my laptop and my 24.1 screen. On my laptop, when i preview it in DEV tools, it looks really nice at all the breakpoints up to 1440px, after that it looks funky. But since it looks good on my 24.1 screen outside DEV tools, it doesn´t seem to be a problem. 
+**Result**: everything works as intended. 
 
 
     
