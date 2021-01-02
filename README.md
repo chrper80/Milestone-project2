@@ -36,6 +36,7 @@ Neema wanted the font Gill Sans because she wanted to give the impression of bei
 
 [Link](https://xd.adobe.com/view/211322f8-09ce-4302-b059-6e7e3c32ae37-7440/)
 
+![Mockup1](assets/images/CaptureMobile.PNG)
 ![Mockup1](assets/images/Capture1.PNG)
 ![Mockup2](assets/images/Capture2.PNG)
 ![Mockup3](assets/images/Capture3.PNG)
