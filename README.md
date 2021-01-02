@@ -413,7 +413,7 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 
 * Neema
    * Her skills and achievements are on display in the about section
-   * There is a link to the LinkedIn profile and there is also information on her skills, achievements and experiences
+   * There is a link to the LinkedIn profile where there is also information on her skills, achievements and experiences
    * In the workplaces section there is info on earlier and current workplaces
    * As a complement there is also a testimonials page where other people are talking about her skills
    * There is also an imbedded CV on the CV page, that tells about her experiences, what languages she speak and her education
