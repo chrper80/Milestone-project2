@@ -85,7 +85,7 @@ Those images are my own work, but Neema was kind to let me use them for this pro
 
 ## Bugs
 
-I have had some troubles getting the footer to stay down on the homepage, since i have so little content there. I wanted to practice using css grid in this project, so i didn´t get the [Method i got from the tutorteam](https://matthewjamestaylor.com/bottom-footer) to work. Instead i found [this method](https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf). It worked pretty well. Note to self though, i need more practice using the grid and it´s a good idea to have enough content on the pages to keep it down. 
+I have had some troubles getting the footer to stay down on the homepage, since i have so little content there. I wanted to practice using css grid in this project, so i didn´t get the [method i got from the tutorteam](https://matthewjamestaylor.com/bottom-footer) to work. Instead i found [this method](https://dev.to/niorad/keeping-the-footer-at-the-bottom-with-css-grid-15mf). It worked pretty well. Note to self though, i need more practice using the grid and it´s a good idea to have enough content on the pages to keep it down. 
 
 ## Testing
 
