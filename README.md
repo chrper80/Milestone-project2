@@ -153,7 +153,7 @@ No error.
 
 ##### Error 
 
-1: Stray start tag script. *Check with mentor*
+1: Stray start tag script. *Check with mentor, line 69-70*
 
 ##### Warning
 
@@ -179,13 +179,13 @@ You just copy your code and paste it in, then you get a report on the right side
 
 #### Warning
 
-3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+3: 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).*Check with mentor*
 
-2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+2: 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *Check with mentor*
 
-1: 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+1: 'object short notation' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz). *Check with mentor*
 
-1: Do not use 'new' for side effects.
+1: Do not use 'new' for side effects. *Check with mentor*
 
 4: missing semicolon. *I fixed those.*
 
@@ -213,7 +213,7 @@ It also gives me that there are 10 unused variables, but that is because i use j
 
 ##### Mobile
 
-* Performance: 73: *The biggest reason here is that the image is to big. It´s still ok though for the purpose of this site"
+* Performance: 73: *The biggest reason here is that the image is to big. It´s still ok though for the purpose of this site*
 * Accessibility: 91
 * Best practices: 100
 * SEO: 92
