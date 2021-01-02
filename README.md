@@ -307,6 +307,11 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 
 ### Manual testing on mobile
 
+* Go to all pages
+   * Click the "logo", it should take the user back to homepage
+   
+**result**: It works as intended.
+
 *  Go to home page 
     * Click the hamburger icon, then on every menu item
     * Scroll down to the footer and make sure all the icons work and that everything opens in a new window that should
