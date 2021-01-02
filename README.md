@@ -310,7 +310,7 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 * Go to all pages
    * Click the "logo", it should take the user back to homepage
    
-**result**: It works as intended.
+**Result**: It works as intended.
 
 *  Go to home page 
     * Click the hamburger icon, then on every menu item
