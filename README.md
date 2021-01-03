@@ -77,7 +77,7 @@ I would like to mention the about page on desktop. When hovering over the paragr
 
 * The button that takes the user back to top, a member of the tutor team helped me with that one.
 
-* My mentor helped me with the popups that shows up when submitting the contact form. He both introduced me to SweetAlert and helped med implement it.
+* My mentor helped me with the popups that shows up when submitting the contact form. He both introduced me to SweetAlert and helped me implement it.
 
 * I also recieved a lot of help from a member of the tutor team with making the EmailJS service work. 
 
@@ -407,7 +407,7 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
    * Turn off the wifi and do the same as above, wait for the error message
    * Try sending the form blank, an alert should popup over firstname. Test also lastname and email
    * When the form is sent, it should reset
-   * hover over the button to see a change of state
+   * Hover over the button to see a change of state
    * Try all the menu items by clicking and hovering
    * Hover over the red marker on the map to see a little message
    * Scroll down to the footer and try the icons by clicking and hovering, make sure everything opens in a new window
