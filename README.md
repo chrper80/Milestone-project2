@@ -351,6 +351,7 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 * Go to Contact page
     * Fill in the form and send it, a confirmation should come up
     * Turn off the wifi and repeat the above process, an error message should come up
+    * Try sending the form blank, an alert should popup over firstname. Test also lastname and email
     * When the form is sent it should reset
     * Go to the hamburger menu and try all the items
     * Scroll down to the footer and test all the items, make sure everything opens in new windows that should
@@ -404,6 +405,7 @@ It also gives me that there are 10 unused variables. *It´s when i use jQuery. M
 * Go to the Contact page
    * Fill out and send the form and see if there comes a popup confirmation
    * Turn off the wifi and do the same as above, wait for the error message
+   * Try sending the form blank, an alert should popup over firstname. Test also lastname and email
    * When the form is sent, it should reset
    * hover over the button to see a change of state
    * Try all the menu items by clicking and hovering
