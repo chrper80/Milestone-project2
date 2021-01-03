@@ -49,7 +49,7 @@ function changeText(a) {
 }
 
 /*Contact*/
-/*Google map with marker*/
+/*Google map with marker, all code is from Google documentation*/
 function initMap() {
     const myWorkPlace = { lat: 57.75241232432578, lng: 12.944106040386254 };
     const map = new google.maps.Map(document.getElementById("map"), {
